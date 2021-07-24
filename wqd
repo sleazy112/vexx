@@ -1,0 +1,1330 @@
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local Vex = Instance.new("ScreenGui")
+local OpenFrame = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local StatT = Instance.new("TextButton")
+local AW = Instance.new("TextButton")
+local Rest = Instance.new("TextButton")
+local VexxingT = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local AutoF = Instance.new("Frame")
+local AWFT = Instance.new("TextLabel")
+local CloseAW = Instance.new("TextButton")
+local Court1 = Instance.new("TextButton")
+local Court2 = Instance.new("TextButton")
+local Court3 = Instance.new("TextButton")
+local Court4 = Instance.new("TextButton")
+local Court5 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local Other = Instance.new("Frame")
+local OtherT = Instance.new("TextLabel")
+local CloseO = Instance.new("TextButton")
+local Opstat = Instance.new("TextButton")
+local free = Instance.new("TextButton")
+local Dropball = Instance.new("TextButton")
+local AutoA = Instance.new("TextButton")
+local Glitchf = Instance.new("TextButton")
+local TP = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local Admin1 = Instance.new("TextButton")
+local Admin2 = Instance.new("TextButton")
+local Hype = Instance.new("TextButton")
+local StatF = Instance.new("Frame")
+local StatT_2 = Instance.new("TextLabel")
+local Crim = Instance.new("TextButton")
+local Cstretch = Instance.new("TextButton")
+local Cpost = Instance.new("TextButton")
+local PFrim = Instance.new("TextButton")
+local PFstretch = Instance.new("TextButton")
+local PFpost = Instance.new("TextButton")
+local PGplay = Instance.new("TextButton")
+local PGslash = Instance.new("TextButton")
+local PGshot = Instance.new("TextButton")
+local SGplay = Instance.new("TextButton")
+local SGslash = Instance.new("TextButton")
+local SGshot = Instance.new("TextButton")
+local SGcombo = Instance.new("TextButton")
+local SFshot = Instance.new("TextButton")
+local SFplay = Instance.new("TextButton")
+local SFslash = Instance.new("TextButton")
+local CloseS = Instance.new("TextButton")
+--Properties:
+Vex.Name = "Vex"
+Vex.Parent = game.CoreGui
+Vex.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = Vex
+OpenFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+OpenFrame.BackgroundTransparency = 1
+OpenFrame.Position = UDim2.new(0.457165092, 0, 0, 0)
+OpenFrame.Size = UDim2.new(0, 110, 0, 34)
+ 
+Open.Name = "Open"
+Open.Parent = OpenFrame
+Open.BackgroundColor3 = Color3.new(0, 0, 0)
+Open.BackgroundTransparency = 0.55000001192093
+Open.Position = UDim2.new(0.0781816021, 0, -0.176470593, 0)
+Open.Size = UDim2.new(0, 91, 0, 24)
+Open.Font = Enum.Font.SciFi
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Open.TextScaled = true
+Open.TextSize = 14
+Open.TextWrapped = true
+Open.MouseButton1Down:connect(function()
+	Main.Visible = true
+	OpenFrame.Visible = false
+end)
+ 
+ 
+Main.Name = "Main"
+Main.Parent = Vex
+Main.Active = true
+Main.BackgroundColor3 = Color3.new(0, 0, 0)
+Main.BackgroundTransparency = 0.55000001192093
+Main.Position = UDim2.new(0.0739875361, 0, 0.0337552726, 0)
+Main.Size = UDim2.new(0, 125, 0, 162)
+Main.Visible = false
+Main.Draggable = true
+ 
+StatT.Name = "StatT"
+StatT.Parent = Main
+StatT.BackgroundColor3 = Color3.new(0, 0, 0)
+StatT.BackgroundTransparency = 0.69999998807907
+StatT.Position = UDim2.new(0, 0, 0.221647978, 0)
+StatT.Size = UDim2.new(0, 125, 0, 30)
+StatT.Font = Enum.Font.SciFi
+StatT.Text = "Stats"
+StatT.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+StatT.TextScaled = true
+StatT.TextSize = 14
+StatT.TextWrapped = true
+StatT.MouseButton1Down:connect(function()
+	StatF.Visible = true
+end)
+ 
+AW.Name = "AW"
+AW.Parent = Main
+AW.BackgroundColor3 = Color3.new(0, 0, 0)
+AW.BackgroundTransparency = 0.69999998807907
+AW.Position = UDim2.new(0, 0, 0.444645435, 0)
+AW.Size = UDim2.new(0, 125, 0, 30)
+AW.Font = Enum.Font.SciFi
+AW.Text = "Auto win"
+AW.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+AW.TextScaled = true
+AW.TextSize = 14
+AW.TextWrapped = true
+AW.MouseButton1Down:connect(function()
+	AutoF.Visible=true
+end)
+ 
+Rest.Name = "Rest"
+Rest.Parent = Main
+Rest.BackgroundColor3 = Color3.new(0, 0, 0)
+Rest.BackgroundTransparency = 0.69999998807907
+Rest.Position = UDim2.new(0, 0, 0.667642891, 0)
+Rest.Size = UDim2.new(0, 125, 0, 30)
+Rest.Font = Enum.Font.SciFi
+Rest.Text = "Others"
+Rest.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Rest.TextScaled = true
+Rest.TextSize = 14
+Rest.TextWrapped = true
+Rest.MouseButton1Down:connect(function()
+	Other.Visible=true
+end)
+ 
+VexxingT.Name = "VexxingT"
+VexxingT.Parent = Main
+VexxingT.BackgroundColor3 = Color3.new(0, 0, 0)
+VexxingT.BackgroundTransparency = 0.69999998807907
+VexxingT.Size = UDim2.new(0, 103, 0, 23)
+VexxingT.Font = Enum.Font.SciFi
+VexxingT.Text = "Vexxing"
+VexxingT.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+VexxingT.TextScaled = true
+VexxingT.TextSize = 14
+VexxingT.TextWrapped = true
+ 
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.new(0, 0, 0)
+Close.BackgroundTransparency = 0.69999998807907
+Close.Position = UDim2.new(0.824000001, 0, 0, 0)
+Close.Size = UDim2.new(0, 22, 0, 23)
+Close.Font = Enum.Font.SciFi
+Close.Text = "X"
+Close.TextColor3 = Color3.new(1, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14
+Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+	Main.Visible=false
+	OpenFrame.Visible=true
+end)
+ 
+AutoF.Name = "AutoF"
+AutoF.Parent = Vex
+AutoF.Active = true
+AutoF.BackgroundColor3 = Color3.new(0, 0, 0)
+AutoF.BackgroundTransparency = 0.5
+AutoF.Position = UDim2.new(0.0739875361, 0, 0.293952167, 0)
+AutoF.Size = UDim2.new(0, 205, 0, 203)
+AutoF.Visible = false
+AutoF.Draggable=true
+ 
+AWFT.Name = "AWFT"
+AWFT.Parent = AutoF
+AWFT.BackgroundColor3 = Color3.new(0, 0, 0)
+AWFT.BackgroundTransparency = 0.69999998807907
+AWFT.Size = UDim2.new(0, 176, 0, 31)
+AWFT.Font = Enum.Font.SciFi
+AWFT.Text = "Auto win"
+AWFT.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+AWFT.TextScaled = true
+AWFT.TextSize = 14
+AWFT.TextWrapped = true
+ 
+CloseAW.Name = "CloseAW"
+CloseAW.Parent = AutoF
+CloseAW.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseAW.BackgroundTransparency = 0.69999998807907
+CloseAW.Position = UDim2.new(0.858536601, 0, 0, 0)
+CloseAW.Size = UDim2.new(0, 29, 0, 31)
+CloseAW.Font = Enum.Font.SourceSans
+CloseAW.Text = "X"
+CloseAW.TextColor3 = Color3.new(1, 0, 0)
+CloseAW.TextScaled = true
+CloseAW.TextSize = 14
+CloseAW.TextWrapped = true
+CloseAW.MouseButton1Down:connect(function()
+	Main.Visible=true
+	AutoF.Visible=false
+end)
+ 
+Court1.Name = "Court1"
+Court1.Parent = AutoF
+Court1.BackgroundColor3 = Color3.new(0, 0, 0)
+Court1.BackgroundTransparency = 0.69999998807907
+Court1.Position = UDim2.new(0.0439024493, 0, 0.23152709, 0)
+Court1.Size = UDim2.new(0, 94, 0, 35)
+Court1.Font = Enum.Font.SciFi
+Court1.Text = "Court1"
+Court1.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Court1.TextScaled = true
+Court1.TextSize = 14
+Court1.TextWrapped = true
+ 
+Court2.Name = "Court2"
+Court2.Parent = AutoF
+Court2.BackgroundColor3 = Color3.new(0, 0, 0)
+Court2.BackgroundTransparency = 0.69999998807907
+Court2.Position = UDim2.new(0.502439022, 0, 0.23152709, 0)
+Court2.Size = UDim2.new(0, 94, 0, 35)
+Court2.Font = Enum.Font.SciFi
+Court2.Text = "Court2"
+Court2.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Court2.TextScaled = true
+Court2.TextSize = 14
+Court2.TextWrapped = true
+ 
+Court3.Name = "Court3"
+Court3.Parent = AutoF
+Court3.BackgroundColor3 = Color3.new(0, 0, 0)
+Court3.BackgroundTransparency = 0.69999998807907
+Court3.Position = UDim2.new(0.0439024493, 0, 0.467980295, 0)
+Court3.Size = UDim2.new(0, 94, 0, 35)
+Court3.Font = Enum.Font.SciFi
+Court3.Text = "Court3"
+Court3.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Court3.TextScaled = true
+Court3.TextSize = 14
+Court3.TextWrapped = true
+ 
+Court4.Name = "Court4"
+Court4.Parent = AutoF
+Court4.BackgroundColor3 = Color3.new(0, 0, 0)
+Court4.BackgroundTransparency = 0.69999998807907
+Court4.Position = UDim2.new(0.502439022, 0, 0.467980295, 0)
+Court4.Size = UDim2.new(0, 94, 0, 35)
+Court4.Font = Enum.Font.SciFi
+Court4.Text = "Court4"
+Court4.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Court4.TextScaled = true
+Court4.TextSize = 14
+Court4.TextWrapped = true
+ 
+Court5.Name = "Court5"
+Court5.Parent = AutoF
+Court5.BackgroundColor3 = Color3.new(0, 0, 0)
+Court5.BackgroundTransparency = 0.69999998807907
+Court5.Position = UDim2.new(0.0439024493, 0, 0.699507356, 0)
+Court5.Size = UDim2.new(0, 94, 0, 35)
+Court5.Font = Enum.Font.SciFi
+Court5.Text = "Court5"
+Court5.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Court5.TextScaled = true
+Court5.TextSize = 14
+Court5.TextWrapped = true
+ 
+TextButton.Parent = AutoF
+TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton.BackgroundTransparency = 0.69999998807907
+TextButton.Position = UDim2.new(0.502439022, 0, 0.699507356, 0)
+TextButton.Size = UDim2.new(0, 94, 0, 35)
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "Court6"
+TextButton.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+TextButton.TextScaled = true
+TextButton.TextSize = 14
+TextButton.TextWrapped = true
+ 
+Other.Name = "Other"
+Other.Parent = Vex
+Other.Active = true
+Other.BackgroundColor3 = Color3.new(0, 0, 0)
+Other.BackgroundTransparency = 0.5
+Other.Position = UDim2.new(0.239096582, 0, 0.293952167, 0)
+Other.Size = UDim2.new(0, 211, 0, 203)
+Other.Visible = false
+Other.Draggable=true
+ 
+OtherT.Name = "OtherT"
+OtherT.Parent = Other
+OtherT.BackgroundColor3 = Color3.new(0, 0, 0)
+OtherT.BackgroundTransparency = 0.69999998807907
+OtherT.Size = UDim2.new(0, 181, 0, 31)
+OtherT.Font = Enum.Font.SciFi
+OtherT.Text = "Other Shid"
+OtherT.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+OtherT.TextScaled = true
+OtherT.TextSize = 14
+OtherT.TextWrapped = true
+ 
+CloseO.Name = "CloseO"
+CloseO.Parent = Other
+CloseO.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseO.BackgroundTransparency = 0.69999998807907
+CloseO.Position = UDim2.new(0.858536601, 0, 0, 0)
+CloseO.Size = UDim2.new(0, 29, 0, 31)
+CloseO.Font = Enum.Font.SourceSans
+CloseO.Text = "X"
+CloseO.TextColor3 = Color3.new(1, 0, 0)
+CloseO.TextScaled = true
+CloseO.TextSize = 14
+CloseO.TextWrapped = true
+CloseO.MouseButton1Down:connect(function()
+	Main.Visible=true
+	Other.Visible=false
+end)
+ 
+ 
+Opstat.Name = "Opstat"
+Opstat.Parent = Other
+Opstat.BackgroundColor3 = Color3.new(0, 0, 0)
+Opstat.BackgroundTransparency = 0.69999998807907
+Opstat.Position = UDim2.new(0.0616113767, 0, 0.197044328, 0)
+Opstat.Size = UDim2.new(0, 84, 0, 23)
+Opstat.Font = Enum.Font.SciFi
+Opstat.Text = "Op stat"
+Opstat.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Opstat.TextScaled = true
+Opstat.TextSize = 14
+Opstat.TextWrapped = true
+ 
+free.Name = "free"
+free.Parent = Other
+free.BackgroundColor3 = Color3.new(0, 0, 0)
+free.BackgroundTransparency = 0.69999998807907
+free.Position = UDim2.new(0.0616113767, 0, 0.354679793, 0)
+free.Size = UDim2.new(0, 84, 0, 23)
+free.Font = Enum.Font.SciFi
+free.Text = "Free stat"
+free.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+free.TextScaled = true
+free.TextSize = 14
+free.TextWrapped = true
+ 
+Dropball.Name = "Dropball"
+Dropball.Parent = Other
+Dropball.BackgroundColor3 = Color3.new(0, 0, 0)
+Dropball.BackgroundTransparency = 0.69999998807907
+Dropball.Position = UDim2.new(0.0616113767, 0, 0.497536957, 0)
+Dropball.Size = UDim2.new(0, 84, 0, 23)
+Dropball.Font = Enum.Font.SciFi
+Dropball.Text = "Dropball"
+Dropball.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Dropball.TextScaled = true
+Dropball.TextSize = 14
+Dropball.TextWrapped = true
+ 
+AutoA.Name = "AutoA"
+AutoA.Parent = Other
+AutoA.BackgroundColor3 = Color3.new(0, 0, 0)
+AutoA.BackgroundTransparency = 0.69999998807907
+AutoA.Position = UDim2.new(0.0616113767, 0, 0.640394092, 0)
+AutoA.Size = UDim2.new(0, 84, 0, 23)
+AutoA.Font = Enum.Font.SciFi
+AutoA.Text = "Auto ankle"
+AutoA.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+AutoA.TextScaled = true
+AutoA.TextSize = 14
+AutoA.TextWrapped = true
+ 
+Glitchf.Name = "Glitchf"
+Glitchf.Parent = Other
+Glitchf.BackgroundColor3 = Color3.new(0, 0, 0)
+Glitchf.BackgroundTransparency = 0.69999998807907
+Glitchf.Position = UDim2.new(0.0616113767, 0, 0.798029482, 0)
+Glitchf.Size = UDim2.new(0, 84, 0, 23)
+Glitchf.Font = Enum.Font.SciFi
+Glitchf.Text = "Glitch fix"
+Glitchf.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Glitchf.TextScaled = true
+Glitchf.TextSize = 14
+Glitchf.TextWrapped = true
+ 
+TP.Name = "TP"
+TP.Parent = Other
+TP.BackgroundColor3 = Color3.new(0, 0, 0)
+TP.BackgroundTransparency = 0.69999998807907
+TP.Position = UDim2.new(0.530805707, 0, 0.197044328, 0)
+TP.Size = UDim2.new(0, 84, 0, 23)
+TP.Font = Enum.Font.SciFi
+TP.Text = "TP(q)"
+TP.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+TP.TextScaled = true
+TP.TextSize = 14
+TP.TextWrapped = true
+ 
+Noclip.Name = "Noclip"
+Noclip.Parent = Other
+Noclip.BackgroundColor3 = Color3.new(0, 0, 0)
+Noclip.BackgroundTransparency = 0.69999998807907
+Noclip.Position = UDim2.new(0.530805707, 0, 0.354679793, 0)
+Noclip.Size = UDim2.new(0, 84, 0, 23)
+Noclip.Font = Enum.Font.SciFi
+Noclip.Text = "Noclip(f)"
+Noclip.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Noclip.TextScaled = true
+Noclip.TextSize = 14
+Noclip.TextWrapped = true
+ 
+Admin1.Name = "Admin1"
+Admin1.Parent = Other
+Admin1.BackgroundColor3 = Color3.new(0, 0, 0)
+Admin1.BackgroundTransparency = 0.69999998807907
+Admin1.Position = UDim2.new(0.530805707, 0, 0.497536957, 0)
+Admin1.Size = UDim2.new(0, 84, 0, 23)
+Admin1.Font = Enum.Font.SciFi
+Admin1.Text = "Admin1"
+Admin1.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Admin1.TextScaled = true
+Admin1.TextSize = 14
+Admin1.TextWrapped = true
+ 
+Admin2.Name = "Admin2"
+Admin2.Parent = Other
+Admin2.BackgroundColor3 = Color3.new(0, 0, 0)
+Admin2.BackgroundTransparency = 0.69999998807907
+Admin2.Position = UDim2.new(0.530805707, 0, 0.640394092, 0)
+Admin2.Size = UDim2.new(0, 84, 0, 23)
+Admin2.Font = Enum.Font.SciFi
+Admin2.Text = "Admin2"
+Admin2.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Admin2.TextScaled = true
+Admin2.TextSize = 14
+Admin2.TextWrapped = true
+ 
+Hype.Name = "Hype"
+Hype.Parent = Other
+Hype.BackgroundColor3 = Color3.new(0, 0, 0)
+Hype.BackgroundTransparency = 0.69999998807907
+Hype.Position = UDim2.new(0.530805707, 0, 0.798029542, 0)
+Hype.Size = UDim2.new(0, 84, 0, 23)
+Hype.Font = Enum.Font.SciFi
+Hype.Text = "Hype beast"
+Hype.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Hype.TextScaled = true
+Hype.TextSize = 14
+Hype.TextWrapped = true
+ 
+StatF.Name = "StatF"
+StatF.Parent = Vex
+StatF.Active = true
+StatF.BackgroundColor3 = Color3.new(0, 0, 0)
+StatF.BackgroundTransparency = 0.5
+StatF.Position = UDim2.new(0.176791281, 0, 0.0337552726, 0)
+StatF.Size = UDim2.new(0, 396, 0, 162)
+StatF.Visible = false
+StatF.Draggable=true
+ 
+StatT_2.Name = "StatT"
+StatT_2.Parent = StatF
+StatT_2.BackgroundColor3 = Color3.new(0, 0, 0)
+StatT_2.BackgroundTransparency = 0.69999998807907
+StatT_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+StatT_2.Position = UDim2.new(0.34661901, 0, 0, 0)
+StatT_2.Size = UDim2.new(0, 95, 0, 35)
+StatT_2.Font = Enum.Font.SciFi
+StatT_2.Text = "Stats"
+StatT_2.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+StatT_2.TextScaled = true
+StatT_2.TextSize = 14
+StatT_2.TextWrapped = true
+ 
+Crim.Name = "Crim"
+Crim.Parent = StatF
+Crim.BackgroundColor3 = Color3.new(0, 0, 0)
+Crim.BackgroundTransparency = 0.69999998807907
+Crim.Position = UDim2.new(0.0117099378, 0, 0.277777791, 0)
+Crim.Size = UDim2.new(0, 71, 0, 26)
+Crim.Font = Enum.Font.SourceSans
+Crim.Text = "C rim"
+Crim.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Crim.TextScaled = true
+Crim.TextSize = 14
+Crim.TextWrapped = true
+ 
+Cstretch.Name = "Cstretch"
+Cstretch.Parent = StatF
+Cstretch.BackgroundColor3 = Color3.new(0, 0, 0)
+Cstretch.BackgroundTransparency = 0.69999998807907
+Cstretch.Position = UDim2.new(0.0117099378, 0, 0.506172836, 0)
+Cstretch.Size = UDim2.new(0, 71, 0, 26)
+Cstretch.Font = Enum.Font.SourceSans
+Cstretch.Text = "C stretch"
+Cstretch.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Cstretch.TextScaled = true
+Cstretch.TextSize = 14
+Cstretch.TextWrapped = true
+ 
+Cpost.Name = "Cpost"
+Cpost.Parent = StatF
+Cpost.BackgroundColor3 = Color3.new(0, 0, 0)
+Cpost.BackgroundTransparency = 0.69999998807907
+Cpost.Position = UDim2.new(0.0117099378, 0, 0.728395045, 0)
+Cpost.Size = UDim2.new(0, 71, 0, 26)
+Cpost.Font = Enum.Font.SourceSans
+Cpost.Text = "C post"
+Cpost.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+Cpost.TextScaled = true
+Cpost.TextSize = 14
+Cpost.TextWrapped = true
+ 
+PFrim.Name = "PFrim"
+PFrim.Parent = StatF
+PFrim.BackgroundColor3 = Color3.new(0, 0, 0)
+PFrim.BackgroundTransparency = 0.69999998807907
+PFrim.Position = UDim2.new(0.201907724, 0, 0.277777791, 0)
+PFrim.Size = UDim2.new(0, 71, 0, 26)
+PFrim.Font = Enum.Font.SourceSans
+PFrim.Text = "PF rim"
+PFrim.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+PFrim.TextScaled = true
+PFrim.TextSize = 14
+PFrim.TextWrapped = true
+ 
+PFstretch.Name = "PFstretch"
+PFstretch.Parent = StatF
+PFstretch.BackgroundColor3 = Color3.new(0, 0, 0)
+PFstretch.BackgroundTransparency = 0.69999998807907
+PFstretch.Position = UDim2.new(0.201907724, 0, 0.512345672, 0)
+PFstretch.Size = UDim2.new(0, 71, 0, 26)
+PFstretch.Font = Enum.Font.SourceSans
+PFstretch.Text = "PF stretch"
+PFstretch.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+PFstretch.TextScaled = true
+PFstretch.TextSize = 14
+PFstretch.TextWrapped = true
+ 
+PFpost.Name = "PFpost"
+PFpost.Parent = StatF
+PFpost.BackgroundColor3 = Color3.new(0, 0, 0)
+PFpost.BackgroundTransparency = 0.69999998807907
+PFpost.Position = UDim2.new(0.201907724, 0, 0.728395045, 0)
+PFpost.Size = UDim2.new(0, 71, 0, 26)
+PFpost.Font = Enum.Font.SourceSans
+PFpost.Text = "PF post"
+PFpost.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+PFpost.TextScaled = true
+PFpost.TextSize = 14
+PFpost.TextWrapped = true
+ 
+PGplay.Name = "PGplay"
+PGplay.Parent = StatF
+PGplay.BackgroundColor3 = Color3.new(0, 0, 0)
+PGplay.BackgroundTransparency = 0.69999998807907
+PGplay.Position = UDim2.new(0.60491693, 0, 0.283950627, 0)
+PGplay.Size = UDim2.new(0, 71, 0, 26)
+PGplay.Font = Enum.Font.SourceSans
+PGplay.Text = "PG play"
+PGplay.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+PGplay.TextScaled = true
+PGplay.TextSize = 14
+PGplay.TextWrapped = true
+ 
+PGslash.Name = "PGslash"
+PGslash.Parent = StatF
+PGslash.BackgroundColor3 = Color3.new(0, 0, 0)
+PGslash.BackgroundTransparency = 0.69999998807907
+PGslash.Position = UDim2.new(0.60491693, 0, 0.506172836, 0)
+PGslash.Size = UDim2.new(0, 71, 0, 26)
+PGslash.Font = Enum.Font.SourceSans
+PGslash.Text = "PG slash"
+PGslash.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+PGslash.TextScaled = true
+PGslash.TextSize = 14
+PGslash.TextWrapped = true
+ 
+PGshot.Name = "PGshot"
+PGshot.Parent = StatF
+PGshot.BackgroundColor3 = Color3.new(0, 0, 0)
+PGshot.BackgroundTransparency = 0.69999998807907
+PGshot.Position = UDim2.new(0.60491693, 0, 0.728395045, 0)
+PGshot.Size = UDim2.new(0, 71, 0, 26)
+PGshot.Font = Enum.Font.SourceSans
+PGshot.Text = "PG shot"
+PGshot.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+PGshot.TextScaled = true
+PGshot.TextSize = 14
+PGshot.TextWrapped = true
+ 
+SGplay.Name = "SGplay"
+SGplay.Parent = StatF
+SGplay.BackgroundColor3 = Color3.new(0, 0, 0)
+SGplay.BackgroundTransparency = 0.69999998807907
+SGplay.Position = UDim2.new(0.803380668, 0, 0.277777791, 0)
+SGplay.Size = UDim2.new(0, 71, 0, 26)
+SGplay.Font = Enum.Font.SourceSans
+SGplay.Text = "SG play"
+SGplay.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+SGplay.TextScaled = true
+SGplay.TextSize = 14
+SGplay.TextWrapped = true
+ 
+SGslash.Name = "SGslash"
+SGslash.Parent = StatF
+SGslash.BackgroundColor3 = Color3.new(0, 0, 0)
+SGslash.BackgroundTransparency = 0.69999998807907
+SGslash.Position = UDim2.new(0.803380668, 0, 0.506172836, 0)
+SGslash.Size = UDim2.new(0, 71, 0, 26)
+SGslash.Font = Enum.Font.SourceSans
+SGslash.Text = "SG slash"
+SGslash.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+SGslash.TextScaled = true
+SGslash.TextSize = 14
+SGslash.TextWrapped = true
+ 
+SGshot.Name = "SGshot"
+SGshot.Parent = StatF
+SGshot.BackgroundColor3 = Color3.new(0, 0, 0)
+SGshot.BackgroundTransparency = 0.69999998807907
+SGshot.Position = UDim2.new(0.803380668, 0, 0.728395045, 0)
+SGshot.Size = UDim2.new(0, 71, 0, 26)
+SGshot.Font = Enum.Font.SourceSans
+SGshot.Text = "SG shot"
+SGshot.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+SGshot.TextScaled = true
+SGshot.TextSize = 14
+SGshot.TextWrapped = true
+ 
+SGcombo.Name = "SGcombo"
+SGcombo.Parent = StatF
+SGcombo.BackgroundColor3 = Color3.new(0, 0, 0)
+SGcombo.BackgroundTransparency = 0.69999998807907
+SGcombo.Position = UDim2.new(0.803380668, 0, 0.0555555224, 0)
+SGcombo.Size = UDim2.new(0, 71, 0, 26)
+SGcombo.Font = Enum.Font.SciFi
+SGcombo.Text = "SG combo"
+SGcombo.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+SGcombo.TextScaled = true
+SGcombo.TextSize = 14
+SGcombo.TextWrapped = true
+ 
+SFshot.Name = "SFshot"
+SFshot.Parent = StatF
+SFshot.BackgroundColor3 = Color3.new(0, 0, 0)
+SFshot.BackgroundTransparency = 0.69999998807907
+SFshot.Position = UDim2.new(0.408978432, 0, 0.734567881, 0)
+SFshot.Size = UDim2.new(0, 71, 0, 26)
+SFshot.Font = Enum.Font.SourceSans
+SFshot.Text = "SF shot"
+SFshot.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+SFshot.TextScaled = true
+SFshot.TextSize = 14
+SFshot.TextWrapped = true
+ 
+SFplay.Name = "SFplay"
+SFplay.Parent = StatF
+SFplay.BackgroundColor3 = Color3.new(0, 0, 0)
+SFplay.BackgroundTransparency = 0.69999998807907
+SFplay.Position = UDim2.new(0.408978432, 0, 0.283950627, 0)
+SFplay.Size = UDim2.new(0, 71, 0, 26)
+SFplay.Font = Enum.Font.SourceSans
+SFplay.Text = "SF play"
+SFplay.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+SFplay.TextScaled = true
+SFplay.TextSize = 14
+SFplay.TextWrapped = true
+ 
+SFslash.Name = "SFslash"
+SFslash.Parent = StatF
+SFslash.BackgroundColor3 = Color3.new(0, 0, 0)
+SFslash.BackgroundTransparency = 0.69999998807907
+SFslash.Position = UDim2.new(0.408978432, 0, 0.512345672, 0)
+SFslash.Size = UDim2.new(0, 71, 0, 26)
+SFslash.Font = Enum.Font.SourceSans
+SFslash.Text = "SF slash"
+SFslash.TextColor3 = Color3.new(0.0823529, 0.678431, 1)
+SFslash.TextScaled = true
+SFslash.TextSize = 14
+SFslash.TextWrapped = true
+ 
+CloseS.Name = "CloseS"
+CloseS.Parent = StatF
+CloseS.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseS.BackgroundTransparency = 0.69999998807907
+CloseS.Position = UDim2.new(0.585858583, 0, 0, 0)
+CloseS.Size = UDim2.new(0, 29, 0, 23)
+CloseS.Font = Enum.Font.SciFi
+CloseS.Text = "X"
+CloseS.TextColor3 = Color3.new(1, 0, 0)
+CloseS.TextScaled = true
+CloseS.TextSize = 14
+CloseS.TextWrapped = true
+CloseS.MouseButton1Down:connect(function()
+	StatF.Visible=false
+	Main.Visible=true
+end)
+-- Scripts:
+ 
+ 
+ 
+--PF rim
+Crim.MouseButton1Down:connect(function()
+	 for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 82;
+        v.postscorer = 73;
+        v.ballspeed = 74;
+        v.jump = 73;
+        v.steal = 80;
+        v.shotcontest = 84;
+        v["2pointer"] = 56;
+        v["3pointer"] = 58;
+        v.passing = 76;
+        v.layup = 88;
+        v.strength = 80;
+        v.dunk = 82;
+        v.speed = 85;
+        v.handles = 65;
+        v.movingshot = 64;
+        v.defense = 89;
+        v.stamina = 99;
+    end
+end
+end) 
+-- cpost
+Cpost.MouseButton1Down:connect(function()
+		 for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 71;
+        v.postscorer = 82;
+        v.ballspeed = 80;
+        v.jump = 80;
+        v.steal = 70;
+        v.shotcontest = 78;
+        v["2pointer"] = 78;
+        v["3pointer"] = 58;
+        v.passing = 73;
+        v.layup = 90;
+        v.strength = 79;
+        v.dunk = 89;
+        v.speed = 84;
+        v.handles = 59;
+        v.movingshot = 82;
+        v.defense = 77;
+        v.stamina = 99;
+    end
+end
+end)
+-- cstretch
+Cstretch.MouseButton1Down:connect(function()
+    for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 77;
+        v.postscorer = 70;
+        v.ballspeed = 80;
+        v.jump = 78;
+        v.steal = 70;
+        v.shotcontest = 84;
+        v["2pointer"] = 84;
+        v["3pointer"] = 72;
+        v.passing = 79;
+        v.layup = 88;
+        v.strength = 75;
+        v.dunk = 81;
+        v.speed = 82;
+        v.handles = 61;
+        v.movingshot = 66;
+        v.defense = 83;
+        v.stamina = 99;
+    end
+end	
+end)
+--pf stretch
+PFstretch.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 82;
+        v.postscorer = 71;
+        v.ballspeed = 80;
+        v.jump = 71;
+        v.steal = 70;
+        v.shotcontest = 80;
+        v["2pointer"] = 86;
+        v["3pointer"] = 73;
+        v.passing = 80;
+        v.layup = 88;
+        v.strength = 78;
+        v.dunk = 74;
+        v.speed = 83;
+        v.handles = 67;
+        v.movingshot = 64;
+        v.defense = 83;
+        v.stamina = 99;
+    end
+end
+end)
+--pf post
+PFpost.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 74;
+        v.postscorer = 83;
+        v.ballspeed = 80;
+        v.jump = 75;
+        v.steal = 70;
+        v.shotcontest = 74;
+        v["2pointer"] = 80;
+        v["3pointer"] = 59;
+        v.passing = 74;
+        v.layup = 90;
+        v.strength = 85;
+        v.dunk = 84;
+        v.speed = 85;
+        v.handles = 65;
+        v.movingshot = 80;
+        v.defense = 77;
+        v.stamina = 99;
+    end
+end
+end)
+--pf rim
+PFrim.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 82;
+        v.postscorer = 81;
+        v.ballspeed = 72;
+        v.jump = 85;
+        v.steal = 86;
+        v.shotcontest = 90;
+        v["2pointer"] = 86;
+        v["3pointer"] = 61;
+        v.passing = 82;
+        v.layup = 96;
+        v.strength = 88;
+        v.dunk = 90;
+        v.speed = 93;
+        v.handles = 71;
+        v.movingshot = 64;
+        v.defense = 95;
+        v.stamina = 99;
+    end
+end
+end)
+--sf shooter
+SFshot.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 92;
+        v.postscorer = 57;
+        v.ballspeed = 85;
+        v.jump = 73;
+        v.steal = 75;
+        v.shotcontest = 74;
+        v["2pointer"] = 90;
+        v["3pointer"] = 81;
+        v.passing = 81;
+        v.layup = 87;
+        v.strength = 63;
+        v.dunk = 60;
+        v.speed = 86;
+        v.handles = 71;
+        v.movingshot = 74;
+        v.defense = 81;
+        v.stamina = 99;
+    end
+end
+end)
+--sf slash
+SFslash.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 76;
+        v.postscorer = 55;
+        v.ballspeed = 85;
+        v.jump = 79;
+        v.steal = 75;
+        v.shotcontest = 70;
+        v["2pointer"] = 80;
+        v["3pointer"] = 65;
+        v.passing = 83;
+        v.layup = 91;
+        v.strength = 71;
+        v.dunk = 68;
+        v.speed = 90;
+        v.handles = 75;
+        v.movingshot = 82;
+        v.defense = 85;
+        v.stamina = 99;
+    end
+end
+end)
+--sf playm
+SFplay.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 88;
+        v.postscorer = 55;
+        v.ballspeed = 89;
+        v.jump = 75;
+        v.steal = 75;
+        v.shotcontest = 70;
+        v["2pointer"] = 76;
+        v["3pointer"] = 67;
+        v.passing = 89;
+        v.layup = 87;
+        v.strength = 61;
+        v.dunk = 60;
+        v.speed = 90;
+        v.handles = 81;
+        v.movingshot = 82;
+        v.defense = 85;
+        v.stamina = 99;
+    end
+end
+end)
+--pg shot
+PGshot.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 96;
+        v.postscorer = 50;
+        v.ballspeed = 89;
+        v.jump = 67;
+        v.steal = 80;
+        v.shotcontest = 68;
+        v["2pointer"] = 92;
+        v["3pointer"] = 83;
+        v.passing = 87;
+        v.layup = 86;
+        v.strength = 58;
+        v.dunk = 54;
+        v.speed = 89;
+        v.handles = 79;
+        v.movingshot = 74;
+        v.defense = 78;
+        v.stamina = 99;
+    end
+end
+end)
+--pg slash
+PGslash.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 70;
+        v.postscorer = 48;
+        v.ballspeed = 89;
+        v.jump = 73;
+        v.steal = 80;
+        v.shotcontest = 64;
+        v["2pointer"] = 82;
+        v["3pointer"] = 67;
+        v.passing = 89;
+        v.layup = 90;
+        v.strength = 66;
+        v.dunk = 62;
+        v.speed = 93;
+        v.handles = 83;
+        v.movingshot = 82;
+        v.defense = 82;
+        v.stamina = 99;
+    end
+end
+end)
+-- pg play
+PGplay.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 92;
+        v.postscorer = 48;
+        v.ballspeed = 93;
+        v.jump = 69;
+        v.steal = 80;
+        v.shotcontest = 64;
+        v["2pointer"] = 78;
+        v["3pointer"] = 69;
+        v.passing = 95;
+        v.layup = 86;
+        v.strength = 56;
+        v.dunk = 54;
+        v.speed = 93;
+        v.handles = 89;
+        v.movingshot = 82;
+        v.defense = 82;
+        v.stamina = 99;
+    end
+end
+end)
+--sg shot
+SGshot.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 96;
+        v.postscorer = 53;
+        v.ballspeed = 88;
+        v.jump = 71;
+        v.steal = 78;
+        v.shotcontest = 69;
+        v["2pointer"] = 90;
+        v["3pointer"] = 86;
+        v.passing = 85;
+        v.layup = 83;
+        v.strength = 60;
+        v.dunk = 56;
+        v.speed = 89;
+        v.handles = 74;
+        v.movingshot = 74;
+        v.defense = 78;
+        v.stamina = 99;
+    end
+end
+end)
+--sg combo
+SGcombo.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 86;
+        v.postscorer = 53;
+        v.ballspeed = 92;
+        v.jump = 69;
+        v.steal = 78;
+        v.shotcontest = 69;
+        v["2pointer"] = 78;
+        v["3pointer"] = 76;
+        v.passing = 89;
+        v.layup = 85;
+        v.strength = 60;
+        v.dunk = 62;
+        v.speed = 93;
+        v.handles = 84;
+        v.movingshot = 78;
+        v.defense = 82;
+        v.stamina = 99;
+    end
+end
+end)
+--sg slash
+SGslash.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 80;
+        v.postscorer = 51;
+        v.ballspeed = 88;
+        v.jump = 77;
+        v.steal = 78;
+        v.shotcontest = 65;
+        v["2pointer"] = 80;
+        v["3pointer"] = 70;
+        v.passing = 87;
+        v.layup = 87;
+        v.strength = 68;
+        v.dunk = 64;
+        v.speed = 93;
+        v.handles = 78;
+        v.movingshot = 82;
+        v.defense = 82;
+        v.stamina = 99;
+    end
+end
+end)
+SGplay.MouseButton1Down:connect(function()
+	for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 92;
+        v.postscorer = 51;
+        v.ballspeed = 92;
+        v.jump = 73;
+        v.steal = 78;
+        v.shotcontest = 65;
+        v["2pointer"] = 76;
+        v["3pointer"] = 72;
+        v.passing = 93;
+        v.layup = 83;
+        v.strength = 58;
+        v.dunk = 56;
+        v.speed = 93;
+        v.handles = 84;
+        v.movingshot = 82;
+        v.defense = 82;
+        v.stamina = 99;
+    end
+end
+end)
+--Op stat
+Opstat.MouseButton1Down:connect(function()
+	    for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math.huge;
+        v.postscorer = math.huge;
+        v.ballspeed = math.huge;
+        v.jump = 99;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = math.huge;
+        v["3pointer"] = math.huge;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = math.huge;
+        v.speed = math.huge;
+        v.handles = math.huge;
+        v.movingshot = math.huge;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+ 
+Court1.MouseButton1Down:connect(function()
+for x = 1, 7 do
+local A_1 = 1 ----- Change this to what court your on
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = 1 ----- Change this to what court your on
+local A_2 = 2
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+wait(2)
+end
+end)
+ 
+Court2.MouseButton1Down:connect(function()
+for x = 1, 7 do
+local A_1 = 2 ----- Change this to what court your on
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = 2 ----- Change this to what court your on
+local A_2 = 2
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+wait(2)
+end
+end)
+ 
+ 
+Court3.MouseButton1Down:connect(function()
+for x = 1, 7 do
+local A_1 = 3 ----- Change this to what court your on
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = 3 ----- Change this to what court your on
+local A_2 = 2
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+wait(2)
+end
+end)
+ 
+Court4.MouseButton1Down:connect(function()
+for x = 1, 7 do
+local A_1 = 4 ----- Change this to what court your on
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = 4 ----- Change this to what court your on
+local A_2 = 2
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+wait(2)
+end
+end)
+ 
+ 
+ 
+Court5.MouseButton1Down:connect(function()
+for x = 1, 7 do
+local A_1 = 5 ----- Change this to what court your on
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = 5 ----- Change this to what court your on
+local A_2 = 2
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+wait(2)
+end
+end)
+ 
+TextButton.MouseButton1Down:connect(function()
+for x = 1, 7 do
+local A_1 = 6 ----- Change this to what court your on
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = 6 ----- Change this to what court your on
+local A_2 = 2
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+wait(2)
+end
+end)
+ 
+ 
+Noclip.MouseButton1Down:connect(function()
+Noclip = false
+game:GetService('RunService').Stepped:connect(function()
+if Noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+ 
+local plr = game.Players.LocalPlayer
+local mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+ 
+if key == "f" then
+Noclip = not Noclip
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+ 
+end
+end)
+end)
+ 
+--Adminv1
+Admin1.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/bkhK5iQg'),true))()
+end)
+--Adminv1
+ 
+--Adminv2
+Admin2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/MjBzRjmT'),true))()
+end)
+--Adminv2
+ 
+TP.MouseButton1Down:connect(function()
+   local plr = game.Players.LocalPlayer
+ 
+hum = plr.Character.HumanoidRootPart
+ 
+mouse = plr:GetMouse()
+ 
+ 
+ 
+mouse.KeyDown:connect(function(key)
+ 
+if key == "q" then
+ 
+if mouse.Target then
+ 
+hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z)
+ 
+end
+ 
+end
+end)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "GG!";
+        Text = "Teleport Activated!; Press Q to teleport!";
+    })
+end)
+ 
+Hype.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1301809529"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://1162338467"
+game.Players.LocalPlayer.Character.Hat.Mesh.MeshId = "rbxassetid://734990739"
+game.Players.LocalPlayer.Character.Hat.Mesh.TextureId = "rbxassetid://879096357"
+game.Players.LocalPlayer.Character.Hat.Mesh.Offset = Vector3.new(0, 0.4, 0)
+game.Players.LocalPlayer.Character.Hat.Mesh.Scale = Vector3.new(1.6, 1.12, 1.3)
+game.Players.LocalPlayer.Character.Hat2.Mesh.MeshId = "rbxassetid://433807755"
+game.Players.LocalPlayer.Character.Hat2.Mesh.TextureId = "rbxassetid://879096357"
+game.Players.LocalPlayer.Character.Hat2.Mesh.Offset = Vector3.new(0, -2, 0)
+game.Players.LocalPlayer.Character.Hat2.Mesh.Scale = Vector3.new(1, 1.04, 1)
+game.Players.LocalPlayer.Character.ShoeL.TextureID = "rbxassetid://1135791438"
+game.Players.LocalPlayer.Character.ShoeR.TextureID = "rbxassetid://1029104847"
+game.Players.LocalPlayer.Character.Hair:Destroy()
+end)
+ 
+Glitchf.MouseButton1Click:Connect(function()
+	local ballweld = game.Players.LocalPlayer.Character["ball.weld"]
+ 
+    ballweld:Destroy()
+end)
+ 
+AutoA.MouseButton1Down:connect(function() 
+local Storage = game:GetService('ReplicatedStorage');
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+while wait(0.4) do
+        local MyChar = Player.Character or Player.CharacterAdded:wait()
+        local RootPart = MyChar:WaitForChild 'HumanoidRootPart';
+ 
+        local postcf = RootPart.Position - Vector3.new(RootPart.Velocity.X / 6, 0, RootPart.Velocity.Z / 6)
+        local poscf = CFrame.new(postcf) + RootPart.CFrame.lookVector * 6
+        local herecf = Vector3.new(poscf.X, poscf.Y, poscf.Z)
+        for _, p in next, (Players:GetPlayers()) do
+              if p ~= Player and p.Character and p.Character:FindFirstChild("HumanoidRootPart") and (p.Character.HumanoidRootPart.Position - herecf).magnitude < 20 and not p.Character:FindFirstChild("ball.weld") then
+                  Storage:WaitForChild('gameplay').character.movedoff:FireServer(p, p.Character.HumanoidRootPart.Position, p.Character.HumanoidRootPart.Position)
+              end
+        end
+      end
+end)
+ 
+Dropball.MouseButton1Down:connect(function()
+local descendants = game.workspace:GetDescendants()
+ 
+for index, descendants in pairs(descendants) do
+ if descendants .Name == "Basketball" then
+ descendants.block:FireServer()
+ end
+ end
+ 
+end)
+ 
+free.MouseButton1Down:connect(function()
+--[[
+    Synapse Xen v1.1.2 by Synapse GP
+    VM Hash: 8daef0ee63ffe159fd39a7a0df781c02335d556f59c999a67629e2f77a8eb4be
+]]
+ 
+local SynapseXen_iIliIilIIllliiil=select;local SynapseXen_IlIIliIlIIil=string.byte;local SynapseXen_IliIllllIl=string.sub;local SynapseXen_llliIIIliIill=string.char;local SynapseXen_ilIiiIIliIllII=type;local SynapseXen_lIiIIiiIIiIiiIlllII=table.concat;local unpack=unpack;local setmetatable=setmetatable;local pcall=pcall;local SynapseXen_llIlIIilIiiiliIII,SynapseXen_Iilli,SynapseXen_lIlIlillliillllIIi,SynapseXen_IiiiilIiiIiiIlil;if bit and bit.bxor then SynapseXen_llIlIIilIiiiliIII=bit.bxor;SynapseXen_Iilli=function(SynapseXen_llIIIiiIiiiIiliillil,SynapseXen_IlllIiiillllI)local SynapseXen_IIiIIllliIIIlIi=SynapseXen_llIlIIilIiiiliIII(SynapseXen_llIIIiiIiiiIiliillil,SynapseXen_IlllIiiillllI)if SynapseXen_IIiIIllliIIIlIi<0 then SynapseXen_IIiIIllliIIIlIi=4294967296+SynapseXen_IIiIIllliIIIlIi end;return SynapseXen_IIiIIllliIIIlIi end else SynapseXen_llIlIIilIiiiliIII=function(SynapseXen_llIIIiiIiiiIiliillil,SynapseXen_IlllIiiillllI)local SynapseXen_iliiIIIlIliil=function(SynapseXen_illliIIll,SynapseXen_liIIiliIIIIllIlIlil)return SynapseXen_illliIIll%(SynapseXen_liIIiliIIIIllIlIlil*2)>=SynapseXen_liIIiliIIIIllIlIlil end;local SynapseXen_iiIiIiliIliilliii=0;for SynapseXen_iiilIlilIiiIiIliIIl=0,31 do SynapseXen_iiIiIiliIliilliii=SynapseXen_iiIiIiliIliilliii+(SynapseXen_iliiIIIlIliil(SynapseXen_llIIIiiIiiiIiliillil,2^SynapseXen_iiilIlilIiiIiIliIIl)~=SynapseXen_iliiIIIlIliil(SynapseXen_IlllIiiillllI,2^SynapseXen_iiilIlilIiiIiIliIIl)and 2^SynapseXen_iiilIlilIiiIiIliIIl or 0)end;return SynapseXen_iiIiIiliIliilliii end;SynapseXen_Iilli=SynapseXen_llIlIIilIiiiliIII end;SynapseXen_lIlIlillliillllIIi=function(SynapseXen_lIIii,SynapseXen_iiiIIIiIlIIlI,SynapseXen_iIIIlIIIlIIIiIili)return(SynapseXen_lIIii+SynapseXen_iiiIIIiIlIIlI)%SynapseXen_iIIIlIIIlIIIiIili end;SynapseXen_IiiiilIiiIiiIlil=function(SynapseXen_lIIii,SynapseXen_iiiIIIiIlIIlI,SynapseXen_iIIIlIIIlIIIiIili)return(SynapseXen_lIIii-SynapseXen_iiiIIIiIlIIlI)%SynapseXen_iIIIlIIIlIIIiIili end;local function SynapseXen_illliiliIliiliiiIl(SynapseXen_IIiIIllliIIIlIi)if SynapseXen_IIiIIllliIIIlIi<0 then SynapseXen_IIiIIllliIIIlIi=4294967296+SynapseXen_IIiIIllliIIIlIi end;return SynapseXen_IIiIIllliIIIlIi end;local getfenv=getfenv;if not getfenv then getfenv=function()return _ENV end end;local SynapseXen_iIllIlI={}local SynapseXen_IiiIIlll={}local SynapseXen_lliiilllIIi;local SynapseXen_lIIIIIl;local SynapseXen_ilIlIIliIllIiI={}local SynapseXen_lIIIilIlIlIIlii={}for SynapseXen_iiilIlilIiiIiIliIIl=0,255 do local SynapseXen_illiIllIilii,SynapseXen_IiIiiliIiIiIIlI=SynapseXen_llliIIIliIill(SynapseXen_iiilIlilIiiIiIliIIl),SynapseXen_llliIIIliIill(SynapseXen_iiilIlilIiiIiIliIIl,0)SynapseXen_ilIlIIliIllIiI[SynapseXen_illiIllIilii]=SynapseXen_IiIiiliIiIiIIlI;SynapseXen_lIIIilIlIlIIlii[SynapseXen_IiIiiliIiIiIIlI]=SynapseXen_illiIllIilii end;local function SynapseXen_liIIIllIiiIiilllii(SynapseXen_llliil,SynapseXen_lllillilli,SynapseXen_liiililiIiiIllilIlii,SynapseXen_IiIIiI)if SynapseXen_liiililiIiiIllilIlii>=256 then SynapseXen_liiililiIiiIllilIlii,SynapseXen_IiIIiI=0,SynapseXen_IiIIiI+1;if SynapseXen_IiIIiI>=256 then SynapseXen_lllillilli={}SynapseXen_IiIIiI=1 end end;SynapseXen_lllillilli[SynapseXen_llliIIIliIill(SynapseXen_liiililiIiiIllilIlii,SynapseXen_IiIIiI)]=SynapseXen_llliil;SynapseXen_liiililiIiiIllilIlii=SynapseXen_liiililiIiiIllilIlii+1;return SynapseXen_lllillilli,SynapseXen_liiililiIiiIllilIlii,SynapseXen_IiIIiI end;local function SynapseXen_llIllIiiIiIIIiIiiliI(SynapseXen_iiliiilIIllII)local function SynapseXen_iIiIiIllllIiIli(SynapseXen_ilIIllIiilliIlilIiIi)local SynapseXen_IiIIiI='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'SynapseXen_ilIIllIiilliIlilIiIi=string.gsub(SynapseXen_ilIIllIiilliIlilIiIi,'[^'..SynapseXen_IiIIiI..'=]','')return SynapseXen_ilIIllIiilliIlilIiIi:gsub('.',function(SynapseXen_lIIii)if SynapseXen_lIIii=='='then return''end;local SynapseXen_liililiIIIIiIIII,SynapseXen_lllliIl='',SynapseXen_IiIIiI:find(SynapseXen_lIIii)-1;for SynapseXen_iiilIlilIiiIiIliIIl=6,1,-1 do SynapseXen_liililiIIIIiIIII=SynapseXen_liililiIIIIiIIII..(SynapseXen_lllliIl%2^SynapseXen_iiilIlilIiiIiIliIIl-SynapseXen_lllliIl%2^(SynapseXen_iiilIlilIiiIiIliIIl-1)>0 and'1'or'0')end;return SynapseXen_liililiIIIIiIIII end):gsub('%d%d%d?%d?%d?%d?%d?%d?',function(SynapseXen_lIIii)if#SynapseXen_lIIii~=8 then return''end;local SynapseXen_IIlliIilI=0;for SynapseXen_iiilIlilIiiIiIliIIl=1,8 do SynapseXen_IIlliIilI=SynapseXen_IIlliIilI+(SynapseXen_lIIii:sub(SynapseXen_iiilIlilIiiIiIliIIl,SynapseXen_iiilIlilIiiIiIliIIl)=='1'and 2^(8-SynapseXen_iiilIlilIiiIiIliIIl)or 0)end;return string.char(SynapseXen_IIlliIilI)end)end;SynapseXen_iiliiilIIllII=SynapseXen_iIiIiIllllIiIli(SynapseXen_iiliiilIIllII)local SynapseXen_IIIIiiiliI=SynapseXen_IliIllllIl(SynapseXen_iiliiilIIllII,1,1)if SynapseXen_IIIIiiiliI=="u"then return SynapseXen_IliIllllIl(SynapseXen_iiliiilIIllII,2)elseif SynapseXen_IIIIiiiliI~="c"then error("Synapse Xen - Failed to verify bytecode. Please make sure your Lua implementation supports non-null terminated strings.")end;SynapseXen_iiliiilIIllII=SynapseXen_IliIllllIl(SynapseXen_iiliiilIIllII,2)local SynapseXen_iIilIIiill=#SynapseXen_iiliiilIIllII;local SynapseXen_lllillilli={}local SynapseXen_liiililiIiiIllilIlii,SynapseXen_IiIIiI=0,1;local SynapseXen_illiiillIiIiII={}local SynapseXen_IIiIIllliIIIlIi=1;local SynapseXen_lIllIlii=SynapseXen_IliIllllIl(SynapseXen_iiliiilIIllII,1,2)SynapseXen_illiiillIiIiII[SynapseXen_IIiIIllliIIIlIi]=SynapseXen_lIIIilIlIlIIlii[SynapseXen_lIllIlii]or SynapseXen_lllillilli[SynapseXen_lIllIlii]SynapseXen_IIiIIllliIIIlIi=SynapseXen_IIiIIllliIIIlIi+1;for SynapseXen_iiilIlilIiiIiIliIIl=3,SynapseXen_iIilIIiill,2 do local SynapseXen_liiIiIlliilIII=SynapseXen_IliIllllIl(SynapseXen_iiliiilIIllII,SynapseXen_iiilIlilIiiIiIliIIl,SynapseXen_iiilIlilIiiIiIliIIl+1)local SynapseXen_iIlIiiliIiIIli=SynapseXen_lIIIilIlIlIIlii[SynapseXen_lIllIlii]or SynapseXen_lllillilli[SynapseXen_lIllIlii]if not SynapseXen_iIlIiiliIiIIli then error("Synapse Xen - Failed to verify bytecode. Please make sure your Lua implementation supports non-null terminated strings.")end;local SynapseXen_ilIiiIiiIlIl=SynapseXen_lIIIilIlIlIIlii[SynapseXen_liiIiIlliilIII]or SynapseXen_lllillilli[SynapseXen_liiIiIlliilIII]if SynapseXen_ilIiiIiiIlIl then SynapseXen_illiiillIiIiII[SynapseXen_IIiIIllliIIIlIi]=SynapseXen_ilIiiIiiIlIl;SynapseXen_IIiIIllliIIIlIi=SynapseXen_IIiIIllliIIIlIi+1;SynapseXen_lllillilli,SynapseXen_liiililiIiiIllilIlii,SynapseXen_IiIIiI=SynapseXen_liIIIllIiiIiilllii(SynapseXen_iIlIiiliIiIIli..SynapseXen_IliIllllIl(SynapseXen_ilIiiIiiIlIl,1,1),SynapseXen_lllillilli,SynapseXen_liiililiIiiIllilIlii,SynapseXen_IiIIiI)else local SynapseXen_iIilIIlIliIII=SynapseXen_iIlIiiliIiIIli..SynapseXen_IliIllllIl(SynapseXen_iIlIiiliIiIIli,1,1)SynapseXen_illiiillIiIiII[SynapseXen_IIiIIllliIIIlIi]=SynapseXen_iIilIIlIliIII;SynapseXen_IIiIIllliIIIlIi=SynapseXen_IIiIIllliIIIlIi+1;SynapseXen_lllillilli,SynapseXen_liiililiIiiIllilIlii,SynapseXen_IiIIiI=SynapseXen_liIIIllIiiIiilllii(SynapseXen_iIilIIlIliIII,SynapseXen_lllillilli,SynapseXen_liiililiIiiIllilIlii,SynapseXen_IiIIiI)end;SynapseXen_lIllIlii=SynapseXen_liiIiIlliilIII end;return SynapseXen_lIiIIiiIIiIiiIlllII(SynapseXen_illiiillIiIiII)end;local function SynapseXen_iiiIIiIiillii(SynapseXen_iIlIliilIiIIll,SynapseXen_lIIill,SynapseXen_lllIIiiIl)if SynapseXen_lllIIiiIl then local SynapseXen_iIllIilIliI=SynapseXen_iIlIliilIiIIll/2^(SynapseXen_lIIill-1)%2^(SynapseXen_lllIIiiIl-1-(SynapseXen_lIIill-1)+1)return SynapseXen_iIllIilIliI-SynapseXen_iIllIilIliI%1 else local SynapseXen_iilIlilIIIIlIIlI=2^(SynapseXen_lIIill-1)if SynapseXen_iIlIliilIiIIll%(SynapseXen_iilIlilIIIIlIIlI+SynapseXen_iilIlilIIIIlIIlI)>=SynapseXen_iilIlilIIIIlIIlI then return 1 else return 0 end end end;local function SynapseXen_iliiiiIIllilIil()local SynapseXen_IliiiilI=SynapseXen_llIlIIilIiiiliIII(3747858446,SynapseXen_lIIIIIl)while true do if SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(1080872256,SynapseXen_lIIIIIl)then return elseif SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(2237254329,SynapseXen_lIIIIIl)then SynapseXen_lliiilllIIi=function(SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI)return SynapseXen_llIlIIilIiiiliIII(SynapseXen_liIIIilI+48382,SynapseXen_ilillIIiiIlI-22710)-SynapseXen_llIlIIilIiiiliIII(3879259179,SynapseXen_IiiIIlll[4])end;SynapseXen_IliiiilI=SynapseXen_IliiiilI+SynapseXen_llIlIIilIiiiliIII(4263681624,SynapseXen_IiiIIlll[12])elseif SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(1926598700,SynapseXen_IiiIIlll[8])then SynapseXen_lliiilllIIi=function(SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI)return SynapseXen_llIlIIilIiiiliIII(SynapseXen_liIIIilI+15899,SynapseXen_ilillIIiiIlI+16047)+SynapseXen_llIlIIilIiiiliIII(683678298,SynapseXen_IiiIIlll[7])end;SynapseXen_IliiiilI=SynapseXen_IliiiilI+SynapseXen_llIlIIilIiiiliIII(2178645009,SynapseXen_lIIIIIl)elseif SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(4226207946,SynapseXen_IiiIIlll[13])then SynapseXen_lliiilllIIi=function(SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI)return SynapseXen_llIlIIilIiiiliIII(SynapseXen_liIIIilI-36520,SynapseXen_ilillIIiiIlI+39358)+SynapseXen_llIlIIilIiiiliIII(3666816701,SynapseXen_IiiIIlll[11])end;SynapseXen_IliiiilI=SynapseXen_IliiiilI-SynapseXen_llIlIIilIiiiliIII(2132955373,SynapseXen_IiiIIlll[2])elseif SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(337204033,SynapseXen_lIIIIIl)then SynapseXen_lliiilllIIi=function(SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI)return SynapseXen_llIlIIilIiiiliIII(SynapseXen_liIIIilI+20791,SynapseXen_ilillIIiiIlI+43533)+SynapseXen_llIlIIilIiiiliIII(2178618987,SynapseXen_lIIIIIl)end;SynapseXen_IliiiilI=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IliiiilI,SynapseXen_llIlIIilIiiiliIII(278648056,SynapseXen_lIIIIIl))elseif SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(2939145786,SynapseXen_IiiIIlll[4])then SynapseXen_lliiilllIIi=function(SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI)return SynapseXen_llIlIIilIiiiliIII(SynapseXen_liIIIilI-45800,SynapseXen_ilillIIiiIlI+6206)+SynapseXen_llIlIIilIiiiliIII(2178629280,SynapseXen_lIIIIIl)end;SynapseXen_IliiiilI=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IliiiilI,SynapseXen_llIlIIilIiiiliIII(603408319,SynapseXen_IiiIIlll[12]))elseif SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(2237263813,SynapseXen_lIIIIIl)then SynapseXen_lliiilllIIi=function(SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI)return SynapseXen_llIlIIilIiiiliIII(SynapseXen_liIIIilI+40628,SynapseXen_ilillIIiiIlI+13952)-SynapseXen_llIlIIilIiiiliIII(3227256840,SynapseXen_IiiIIlll[5])end;SynapseXen_IliiiilI=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IliiiilI,SynapseXen_llIlIIilIiiiliIII(1155653831,SynapseXen_lIIIIIl))elseif SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(2218246010,SynapseXen_IiiIIlll[11])then SynapseXen_lliiilllIIi=function(SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI)return SynapseXen_llIlIIilIiiiliIII(SynapseXen_liIIIilI+30558,SynapseXen_ilillIIiiIlI-6925)-SynapseXen_llIlIIilIiiiliIII(2178633336,SynapseXen_lIIIIIl)end;SynapseXen_IliiiilI=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IliiiilI,SynapseXen_llIlIIilIiiiliIII(2541000989,SynapseXen_lIIIIIl))elseif SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(2811203051,SynapseXen_IiiIIlll[6])then SynapseXen_lliiilllIIi=function(SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI)return SynapseXen_llIlIIilIiiiliIII(SynapseXen_liIIIilI+41478,SynapseXen_ilillIIiiIlI+11807)-SynapseXen_llIlIIilIiiiliIII(954318844,SynapseXen_IiiIIlll[10])end;SynapseXen_IliiiilI=SynapseXen_IliiiilI-SynapseXen_llIlIIilIiiiliIII(2178642093,SynapseXen_lIIIIIl)elseif SynapseXen_IliiiilI==SynapseXen_llIlIIilIiiiliIII(337186255,SynapseXen_lIIIIIl)then SynapseXen_lliiilllIIi=function(SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI)return SynapseXen_llIlIIilIiiiliIII(SynapseXen_liIIIilI-34184,SynapseXen_ilillIIiiIlI-28935)-SynapseXen_llIlIIilIiiiliIII(3879238719,SynapseXen_IiiIIlll[4])end;SynapseXen_IliiiilI=SynapseXen_IliiiilI-SynapseXen_llIlIIilIiiiliIII(2178641806,SynapseXen_lIIIIIl)end end end;local function SynapseXen_ililiiliilllIIii(SynapseXen_iiiIIiiIiiillillIi)local SynapseXen_llIiIIiI=1;local SynapseXen_liiiIliiiillil;local SynapseXen_iIiIilliiiiII;local function SynapseXen_IilIiiiiiiililiI()local SynapseXen_lIilliIllI=SynapseXen_IlIIliIlIIil(SynapseXen_iiiIIiiIiiillillIi,SynapseXen_llIiIIiI,SynapseXen_llIiIIiI)SynapseXen_llIiIIiI=SynapseXen_llIiIIiI+1;return SynapseXen_lIilliIllI end;local function SynapseXen_illIIil()local SynapseXen_ilIIiIillilIllIl,SynapseXen_liIIIilI,SynapseXen_ilillIIiiIlI,SynapseXen_iIIil=SynapseXen_IlIIliIlIIil(SynapseXen_iiiIIiiIiiillillIi,SynapseXen_llIiIIiI,SynapseXen_llIiIIiI+3)SynapseXen_llIiIIiI=SynapseXen_llIiIIiI+4;return SynapseXen_iIIil*16777216+SynapseXen_ilillIIiiIlI*65536+SynapseXen_liIIIilI*256+SynapseXen_ilIIiIillilIllIl end;local function SynapseXen_lIllIIIIIliIiii()return SynapseXen_illIIil()*4294967296+SynapseXen_illIIil()end;local function SynapseXen_Illili()local SynapseXen_llliiiil=SynapseXen_Iilli(SynapseXen_illIIil(),SynapseXen_iIllIlI[2363413671]or(function()local SynapseXen_lIIii="https://twitter.com/Ripull_RBLX/status/1059334518581145603"SynapseXen_iIllIlI[2363413671]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(3796375353,3228351650),SynapseXen_llIlIIilIiiiliIII(2115718873,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{2725938864}return SynapseXen_iIllIlI[2363413671]end)())local SynapseXen_lIIIlIIIiilllIIIlI=SynapseXen_Iilli(SynapseXen_illIIil(),SynapseXen_iIllIlI[4053986392]or(function(...)local SynapseXen_lIIii="pain exist is gonna connect the dots of xen"local SynapseXen_iIlIIlI=SynapseXen_lliiilllIIi(2136477694,2181180464)local SynapseXen_iIiIiIlilIiiIIllllII={...}for SynapseXen_iiilIlilIiiIiIliIIl,SynapseXen_iiIIiililIlIilili in pairs(SynapseXen_iIiIiIlilIiiIIllllII)do local SynapseXen_liIliilIIl;local SynapseXen_iIlIiIlililiIl=type(SynapseXen_iiIIiililIlIilili)if SynapseXen_iIlIiIlililiIl=="number"then SynapseXen_liIliilIIl=SynapseXen_iiIIiililIlIilili elseif SynapseXen_iIlIiIlililiIl=="string"then SynapseXen_liIliilIIl=SynapseXen_iiIIiililIlIilili:len()elseif SynapseXen_iIlIiIlililiIl=="table"then SynapseXen_liIliilIIl=SynapseXen_lliiilllIIi(867345100,867402706)end;SynapseXen_iIlIIlI=SynapseXen_iIlIIlI+SynapseXen_liIliilIIl end;SynapseXen_iIllIlI[4053986392]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_llIlIIilIiiiliIII(480345757,SynapseXen_iIlIIlI),SynapseXen_llIlIIilIiiiliIII(1416136550,SynapseXen_IiiIIlll[1]))-string.len(SynapseXen_lIIii)-#{1735122182,2399794684}return SynapseXen_iIllIlI[4053986392]end)(3965))local SynapseXen_ilIIlilliIIlliiIliI=1;local SynapseXen_IIiiIIlII=SynapseXen_iiiIIiIiillii(SynapseXen_lIIIlIIIiilllIIIlI,1,20)*2^32+SynapseXen_llliiiil;local SynapseXen_lIIiliiiIlII=SynapseXen_iiiIIiIiillii(SynapseXen_lIIIlIIIiilllIIIlI,21,31)local SynapseXen_IlIliIlllliililI=(-1)^SynapseXen_iiiIIiIiillii(SynapseXen_lIIIlIIIiilllIIIlI,32)if SynapseXen_lIIiliiiIlII==0 then if SynapseXen_IIiiIIlII==0 then return SynapseXen_IlIliIlllliililI*0 else SynapseXen_lIIiliiiIlII=1;SynapseXen_ilIIlilliIIlliiIliI=0 end elseif SynapseXen_lIIiliiiIlII==2047 then if SynapseXen_IIiiIIlII==0 then return SynapseXen_IlIliIlllliililI*1/0 else return SynapseXen_IlIliIlllliililI*0/0 end end;return math.ldexp(SynapseXen_IlIliIlllliililI,SynapseXen_lIIiliiiIlII-1023)*(SynapseXen_ilIIlilliIIlliiIliI+SynapseXen_IIiiIIlII/2^52)end;local function SynapseXen_liiIIliIIliiI(SynapseXen_IIiIIll)local SynapseXen_IiliilllllliiliI;if SynapseXen_IIiIIll then SynapseXen_IiliilllllliiliI=SynapseXen_IliIllllIl(SynapseXen_iiiIIiiIiiillillIi,SynapseXen_llIiIIiI,SynapseXen_llIiIIiI+SynapseXen_IIiIIll-1)SynapseXen_llIiIIiI=SynapseXen_llIiIIiI+SynapseXen_IIiIIll else SynapseXen_IIiIIll=SynapseXen_liiiIliiiillil()if SynapseXen_IIiIIll==0 then return""end;SynapseXen_IiliilllllliiliI=SynapseXen_IliIllllIl(SynapseXen_iiiIIiiIiiillillIi,SynapseXen_llIiIIiI,SynapseXen_llIiIIiI+SynapseXen_IIiIIll-1)SynapseXen_llIiIIiI=SynapseXen_llIiIIiI+SynapseXen_IIiIIll end;return SynapseXen_IiliilllllliiliI end;local function SynapseXen_liliililIiiIiiIliIlI(SynapseXen_IiliilllllliiliI)local SynapseXen_iIllIilIliI={}for SynapseXen_iiilIlilIiiIiIliIIl=1,#SynapseXen_IiliilllllliiliI do local SynapseXen_iilliiili=SynapseXen_IiliilllllliiliI:sub(SynapseXen_iiilIlilIiiIiIliIIl,SynapseXen_iiilIlilIiiIiIliIIl)SynapseXen_iIllIilIliI[#SynapseXen_iIllIilIliI+1]=string.char(SynapseXen_llIlIIilIiiiliIII(string.byte(SynapseXen_iilliiili),SynapseXen_iIllIlI[1627174303]or(function()local SynapseXen_lIIii="wait for someone on devforum to say they are gonna deobfuscate this"SynapseXen_iIllIlI[1627174303]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(3908669812,4181931261),SynapseXen_llIlIIilIiiiliIII(2422456977,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{3637341181,185940850,2814620559,602998721,1432709228,3944766741,2073158459}return SynapseXen_iIllIlI[1627174303]end)()))end;return table.concat(SynapseXen_iIllIilIliI)end;local function SynapseXen_lliiIIilI()local SynapseXen_IlIllIlil={}local SynapseXen_llliiillIilli={}local SynapseXen_IiiIll={}local SynapseXen_IlIIIiIIlilliliIiiii={[SynapseXen_iIllIlI[3631664455]or(function()local SynapseXen_lIIii="baby i just fell for uwu,,,,,, i wanna be with uwu!11!!"SynapseXen_iIllIlI[3631664455]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(128879762,63795336),SynapseXen_llIlIIilIiiiliIII(3842460776,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{782409545,3150547889,1380131827,1934529273,2682375019,1317352191,3593593788,3437310916,3192157422,1169529254}return SynapseXen_iIllIlI[3631664455]end)()]=SynapseXen_IiiIll,[SynapseXen_iIllIlI[1657785623]or(function()local SynapseXen_lIIii="level 1 crook = luraph, level 100 boss = xen"SynapseXen_iIllIlI[1657785623]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(3199662419,1063353025),SynapseXen_llIlIIilIiiiliIII(2232930630,SynapseXen_IiiIIlll[6]))-string.len(SynapseXen_lIIii)-#{3488827626,455706212}return SynapseXen_iIllIlI[1657785623]end)()]=SynapseXen_llliiillIilli,[SynapseXen_iIllIlI[4278666091]or(function()local SynapseXen_lIIii="HELP ME PEOPLE ARE CRASHING MY GAME PLZ HELP"SynapseXen_iIllIlI[4278666091]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(1347473176,865475340),SynapseXen_llIlIIilIiiiliIII(2106727577,SynapseXen_IiiIIlll[6]))-string.len(SynapseXen_lIIii)-#{3729080549,2405170585,1679200676}return SynapseXen_iIllIlI[4278666091]end)()]=SynapseXen_IlIllIlil}SynapseXen_illIIil()for SynapseXen_IIiIllllIlIi=1,SynapseXen_llIlIIilIiiiliIII(SynapseXen_iIiIilliiiiII(),SynapseXen_iIllIlI[775164688]or(function(...)local SynapseXen_lIIii="print(bytecode)"local SynapseXen_iIlIIlI=SynapseXen_lliiilllIIi(1928579852,1086552985)local SynapseXen_iIiIiIlilIiiIIllllII={...}for SynapseXen_iiilIlilIiiIiIliIIl,SynapseXen_iiIIiililIlIilili in pairs(SynapseXen_iIiIiIlilIiiIIllllII)do local SynapseXen_liIliilIIl;local SynapseXen_iIlIiIlililiIl=type(SynapseXen_iiIIiililIlIilili)if SynapseXen_iIlIiIlililiIl=="number"then SynapseXen_liIliilIIl=SynapseXen_iiIIiililIlIilili elseif SynapseXen_iIlIiIlililiIl=="string"then SynapseXen_liIliilIIl=SynapseXen_iiIIiililIlIilili:len()elseif SynapseXen_iIlIiIlililiIl=="table"then SynapseXen_liIliilIIl=SynapseXen_lliiilllIIi(3619040057,3619031938)end;SynapseXen_iIlIIlI=SynapseXen_iIlIIlI-SynapseXen_liIliilIIl end;SynapseXen_iIllIlI[775164688]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_llIlIIilIiiiliIII(3104517102,SynapseXen_iIlIIlI),SynapseXen_llIlIIilIiiiliIII(1381682726,SynapseXen_IiiIIlll[13]))-string.len(SynapseXen_lIIii)-#{132894193,1887684559,1618478683,657581297,893667459,2866948536,4218522571}return SynapseXen_iIllIlI[775164688]end)({},2612,{},{},9971,"iiIliIlIiIiIliil",{},{},13847))do SynapseXen_IilIiiiiiiililiI()local SynapseXen_lllIIlIiliiiliiiiII=SynapseXen_llIlIIilIiiiliIII(SynapseXen_illIIil(),SynapseXen_iIllIlI[4012855524]or(function()local SynapseXen_lIIii="xen best rerubi paste"SynapseXen_iIllIlI[4012855524]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(3028829322,449010988),SynapseXen_llIlIIilIiiiliIII(3263002231,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{3482152675,1899130971,2460383212,188130844,2477175106,1972409758,4213945432,40395259,1521470930}return SynapseXen_iIllIlI[4012855524]end)())local SynapseXen_lliililIllIilllilI=SynapseXen_IilIiiiiiiililiI()SynapseXen_IilIiiiiiiililiI()local SynapseXen_ilIiiIIliIllII=SynapseXen_IilIiiiiiiililiI()SynapseXen_illIIil()local SynapseXen_IillIIiiiliiilI={[1642312672]=SynapseXen_lllIIlIiliiiliiiiII,[1841327969]=SynapseXen_lliililIllIilllilI,[2021381489]=SynapseXen_iiiIIiIiillii(SynapseXen_lllIIlIiliiiliiiiII,1,6),[1249423195]=SynapseXen_iiiIIiIiillii(SynapseXen_lllIIlIiliiiliiiiII,7,14)}if SynapseXen_ilIiiIIliIllII==(SynapseXen_iIllIlI[1929628993]or(function()local SynapseXen_lIIii="wow xen is shit buy luraph ok"SynapseXen_iIllIlI[1929628993]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(2238846477,437982641),SynapseXen_llIlIIilIiiiliIII(3763026786,SynapseXen_IiiIIlll[2]))-string.len(SynapseXen_lIIii)-#{3402081125,2627137211,3738443516,3702528007,215888847}return SynapseXen_iIllIlI[1929628993]end)())then SynapseXen_IillIIiiiliiilI[582973274]=SynapseXen_iiiIIiIiillii(SynapseXen_lllIIlIiliiiliiiiII,24,32)SynapseXen_IillIIiiiliiilI[1563788423]=SynapseXen_iiiIIiIiillii(SynapseXen_lllIIlIiliiiliiiiII,15,23)elseif SynapseXen_ilIiiIIliIllII==(SynapseXen_iIllIlI[1856547182]or(function()local SynapseXen_lIIii="xen detects custom getfenv"SynapseXen_iIllIlI[1856547182]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(339664148,456555817),SynapseXen_llIlIIilIiiiliIII(2396151475,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{1928747247,1419376359,2965820757,4234774335}return SynapseXen_iIllIlI[1856547182]end)())then SynapseXen_IillIIiiiliiilI[750730898]=SynapseXen_iiiIIiIiillii(SynapseXen_lllIIlIiliiiliiiiII,15,32)elseif SynapseXen_ilIiiIIliIllII==(SynapseXen_iIllIlI[3632246634]or(function()local SynapseXen_lIIii="SYNAPSE XEN [FE BYPASS] [BETTER THEN LURAPH] [AMAZING] OMG OMG OMG !!!!!!"SynapseXen_iIllIlI[3632246634]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(3307282768,4239861737),SynapseXen_llIlIIilIiiiliIII(3092160127,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{4079342982,3875803448,3963810922,1285141426,673783076,3643268352,1585131398,3660535026,3750632750,1588376600}return SynapseXen_iIllIlI[3632246634]end)())then SynapseXen_IillIIiiiliiilI[1040761900]=SynapseXen_iiiIIiIiillii(SynapseXen_lllIIlIiliiiliiiiII,15,32)-131071 end;SynapseXen_IiiIll[SynapseXen_IIiIllllIlIi]=SynapseXen_IillIIiiiliiilI end;SynapseXen_IilIiiiiiiililiI()SynapseXen_illIIil()for SynapseXen_IIiIllllIlIi=1,SynapseXen_llIlIIilIiiiliIII(SynapseXen_iIiIilliiiiII(),SynapseXen_iIllIlI[2876897616]or(function()local SynapseXen_lIIii="skisploit is the superior obfuscator, clearly."SynapseXen_iIllIlI[2876897616]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(3547275072,3839120574),SynapseXen_llIlIIilIiiiliIII(509748463,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{1677591552,2076105936,3237985914,4008293214,1118168129}return SynapseXen_iIllIlI[2876897616]end)())do SynapseXen_illIIil()local SynapseXen_ilIiiIIliIllII=SynapseXen_IilIiiiiiiililiI()SynapseXen_illIIil()local SynapseXen_IlIliIIl;if SynapseXen_ilIiiIIliIllII==(SynapseXen_iIllIlI[1990846217]or(function()local SynapseXen_lIIii="imagine using some lua minifier tool and thinking you are a badass"SynapseXen_iIllIlI[1990846217]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(689636062,2065754686),SynapseXen_llIlIIilIiiiliIII(4111295065,SynapseXen_IiiIIlll[3]))-string.len(SynapseXen_lIIii)-#{736765437,1956490863,1744653202,2687638308}return SynapseXen_iIllIlI[1990846217]end)())then SynapseXen_IlIliIIl=SynapseXen_IilIiiiiiiililiI()~=0 elseif SynapseXen_ilIiiIIliIllII==(SynapseXen_iIllIlI[4114947289]or(function()local SynapseXen_lIIii="aspect network better obfuscator"SynapseXen_iIllIlI[4114947289]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(519032976,3921239379),SynapseXen_llIlIIilIiiiliIII(1989309717,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{3797944950,3005266685,282172056,3735433567,1338698676}return SynapseXen_iIllIlI[4114947289]end)())then SynapseXen_IlIliIIl=SynapseXen_Illili()elseif SynapseXen_ilIiiIIliIllII==(SynapseXen_iIllIlI[38353774]or(function(...)local SynapseXen_lIIii="sometimes it be like that"local SynapseXen_iIlIIlI=SynapseXen_lliiilllIIi(2299882420,4027525600)local SynapseXen_iIiIiIlilIiiIIllllII={...}for SynapseXen_iiilIlilIiiIiIliIIl,SynapseXen_iiIIiililIlIilili in pairs(SynapseXen_iIiIiIlilIiiIIllllII)do local SynapseXen_liIliilIIl;local SynapseXen_iIlIiIlililiIl=type(SynapseXen_iiIIiililIlIilili)if SynapseXen_iIlIiIlililiIl=="number"then SynapseXen_liIliilIIl=SynapseXen_iiIIiililIlIilili elseif SynapseXen_iIlIiIlililiIl=="string"then SynapseXen_liIliilIIl=SynapseXen_iiIIiililIlIilili:len()elseif SynapseXen_iIlIiIlililiIl=="table"then SynapseXen_liIliilIIl=SynapseXen_lliiilllIIi(3458153385,3458130548)end;SynapseXen_iIlIIlI=SynapseXen_iIlIIlI-SynapseXen_liIliilIIl end;SynapseXen_iIllIlI[38353774]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_llIlIIilIiiiliIII(935359483,SynapseXen_iIlIIlI),SynapseXen_llIlIIilIiiiliIII(3473082358,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{840671463,3887627008,406475549,3136246169}return SynapseXen_iIllIlI[38353774]end)(7136,"iiilIlliiIIillli","IllillIIIlII",{},"ilIIiI",4996,848,{},"lIliiiIIII",5308))then SynapseXen_IlIliIIl=SynapseXen_IliIllllIl(SynapseXen_liliililIiiIiiIliIlI(SynapseXen_liiIIliIIliiI()),1,-2)end;SynapseXen_llliiillIilli[SynapseXen_IIiIllllIlIi-1]=SynapseXen_IlIliIIl end;SynapseXen_IilIiiiiiiililiI()SynapseXen_illIIil()SynapseXen_IilIiiiiiiililiI()SynapseXen_IlIIIiIIlilliliIiiii[1788215202]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IilIiiiiiiililiI(),SynapseXen_iIllIlI[2641658000]or(function()local SynapseXen_lIIii="SECURE API, IMPOSSIBLE TO BYPASS!"SynapseXen_iIllIlI[2641658000]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(2418529828,1904627564),SynapseXen_llIlIIilIiiiliIII(1618348325,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{3298415714,2833728574,2219390104,654686382,2296884979,3493979191,1161339462,3905874151,1646162217,4243401151}return SynapseXen_iIllIlI[2641658000]end)())SynapseXen_illIIil()SynapseXen_IlIIIiIIlilliliIiiii[131170503]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IilIiiiiiiililiI(),SynapseXen_iIllIlI[2390912278]or(function(...)local SynapseXen_lIIii="this is a christian obfuscator, no cursing allowed in our scripts"local SynapseXen_iIlIIlI=SynapseXen_lliiilllIIi(4139016380,3106053998)local SynapseXen_iIiIiIlilIiiIIllllII={...}for SynapseXen_iiilIlilIiiIiIliIIl,SynapseXen_iiIIiililIlIilili in pairs(SynapseXen_iIiIiIlilIiiIIllllII)do local SynapseXen_liIliilIIl;local SynapseXen_iIlIiIlililiIl=type(SynapseXen_iiIIiililIlIilili)if SynapseXen_iIlIiIlililiIl=="number"then SynapseXen_liIliilIIl=SynapseXen_iiIIiililIlIilili elseif SynapseXen_iIlIiIlililiIl=="string"then SynapseXen_liIliilIIl=SynapseXen_iiIIiililIlIilili:len()elseif SynapseXen_iIlIiIlililiIl=="table"then SynapseXen_liIliilIIl=SynapseXen_lliiilllIIi(1956820201,1956869767)end;SynapseXen_iIlIIlI=SynapseXen_iIlIIlI-SynapseXen_liIliilIIl end;SynapseXen_iIllIlI[2390912278]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_llIlIIilIiiiliIII(3203368011,SynapseXen_iIlIIlI),SynapseXen_llIlIIilIiiiliIII(1889720466,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{997377325,918362417}return SynapseXen_iIllIlI[2390912278]end)(2139,"IllilIilli",{},{},"IIIlilllIiIIl","IIIIl",{},{},"iIIliIIIIilIiil",{}))SynapseXen_IilIiiiiiiililiI()SynapseXen_IilIiiiiiiililiI()for SynapseXen_IIiIllllIlIi=1,SynapseXen_llIlIIilIiiiliIII(SynapseXen_iIiIilliiiiII(),SynapseXen_iIllIlI[701694282]or(function()local SynapseXen_lIIii="inb4 posted on exploit reports section"SynapseXen_iIllIlI[701694282]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(3146548970,963246882),SynapseXen_llIlIIilIiiiliIII(2974482565,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{930754054,1257608372,1554140621,1428334500,2059229052,3209139993,632052907,4034328469}return SynapseXen_iIllIlI[701694282]end)())do SynapseXen_IlIllIlil[SynapseXen_IIiIllllIlIi-1]=SynapseXen_lliiIIilI()end;return SynapseXen_IlIIIiIIlilliliIiiii end;do assert(SynapseXen_liiIIliIIliiI(4)=="\27Xen","Synapse Xen - Failed to verify bytecode. Please make sure your Lua implementation supports non-null terminated strings.")SynapseXen_iIiIilliiiiII=SynapseXen_illIIil;SynapseXen_liiiIliiiillil=SynapseXen_illIIil;local SynapseXen_ilili=SynapseXen_liiIIliIIliiI()SynapseXen_IilIiiiiiiililiI()SynapseXen_illIIil()SynapseXen_lIIIIIl=SynapseXen_illliiliIliiliiiIl(SynapseXen_iIiIilliiiiII())SynapseXen_illIIil()SynapseXen_IilIiiiiiiililiI()local SynapseXen_lilIlliI=0;for SynapseXen_iiilIlilIiiIiIliIIl=1,#SynapseXen_ilili do local SynapseXen_iilliiili=SynapseXen_ilili:sub(SynapseXen_iiilIlilIiiIiIliIIl,SynapseXen_iiilIlilIiiIiIliIIl)SynapseXen_lilIlliI=SynapseXen_lilIlliI+string.byte(SynapseXen_iilliiili)end;SynapseXen_lilIlliI=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lilIlliI,SynapseXen_lIIIIIl)for SynapseXen_IIiIllllIlIi=1,SynapseXen_IilIiiiiiiililiI()do SynapseXen_IiiIIlll[SynapseXen_IIiIllllIlIi]=SynapseXen_Iilli(SynapseXen_iIiIilliiiiII(),SynapseXen_lilIlliI)end;SynapseXen_iliiiiIIllilIil()end;return SynapseXen_lliiIIilI()end;local function SynapseXen_IilIllIIIIIllliiI(...)return SynapseXen_iIliIilIIllliiil('#',...),{...}end;local function SynapseXen_iiIii(SynapseXen_IlIIIiIIlilliliIiiii,SynapseXen_liIlII,SynapseXen_IilIlIlliI)local SynapseXen_IiiIll=SynapseXen_IlIIIiIIlilliliIiiii[SynapseXen_iIllIlI[3631664455]or(function()local SynapseXen_lIIii="baby i just fell for uwu,,,,,, i wanna be with uwu!11!!"SynapseXen_iIllIlI[3631664455]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(128879762,63795336),SynapseXen_llIlIIilIiiiliIII(3842460776,SynapseXen_lIIIIIl))-string.len(SynapseXen_lIIii)-#{782409545,3150547889,1380131827,1934529273,2682375019,1317352191,3593593788,3437310916,3192157422,1169529254}return SynapseXen_iIllIlI[3631664455]end)()]local SynapseXen_IlIllIlil=SynapseXen_IlIIIiIIlilliliIiiii[SynapseXen_iIllIlI[4278666091]or(function()local SynapseXen_lIIii="HELP ME PEOPLE ARE CRASHING MY GAME PLZ HELP"SynapseXen_iIllIlI[4278666091]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(1347473176,865475340),SynapseXen_llIlIIilIiiiliIII(2106727577,SynapseXen_IiiIIlll[6]))-string.len(SynapseXen_lIIii)-#{3729080549,2405170585,1679200676}return SynapseXen_iIllIlI[4278666091]end)()]local SynapseXen_llliiillIilli=SynapseXen_IlIIIiIIlilliliIiiii[SynapseXen_iIllIlI[1657785623]or(function()local SynapseXen_lIIii="level 1 crook = luraph, level 100 boss = xen"SynapseXen_iIllIlI[1657785623]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lliiilllIIi(3199662419,1063353025),SynapseXen_llIlIIilIiiiliIII(2232930630,SynapseXen_IiiIIlll[6]))-string.len(SynapseXen_lIIii)-#{3488827626,455706212}return SynapseXen_iIllIlI[1657785623]end)()]return function(...)local SynapseXen_liIIl,SynapseXen_liIIiilil=1,-1;local SynapseXen_IIiiIiliIlllIiI,SynapseXen_IliIIlIilII={},SynapseXen_iIliIilIIllliiil('#',...)-1;local SynapseXen_lIIlIIIiililll=0;local SynapseXen_llIiilIliIIi={}local SynapseXen_illlilIiIIii={}local SynapseXen_IIliIiiiIiiill=setmetatable({},{__index=SynapseXen_llIiilIliIIi,__newindex=function(SynapseXen_llIllllIililiiiliIII,SynapseXen_IilIiIl,SynapseXen_IlIIiIlilIIlil)if SynapseXen_IilIiIl>SynapseXen_liIIiilil then SynapseXen_liIIiilil=SynapseXen_IilIiIl end;SynapseXen_llIiilIliIIi[SynapseXen_IilIiIl]=SynapseXen_IlIIiIlilIIlil end})local function SynapseXen_iIIII()local SynapseXen_IillIIiiiliiilI,SynapseXen_liIiilIIIIiliIll;while true do SynapseXen_IillIIiiiliiilI=SynapseXen_IiiIll[SynapseXen_liIIl]SynapseXen_liIiilIIIIiliIll=SynapseXen_IillIIiiiliiilI[1841327969]SynapseXen_liIIl=SynapseXen_liIIl+1;if SynapseXen_liIiilIIIIiliIll==86 then local SynapseXen_illlIIil=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[582973274],99,512)local SynapseXen_iilliiili=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1563788423],101)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;SynapseXen_IiIiI[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],10,256)]=SynapseXen_illlIIil/SynapseXen_iilliiili elseif SynapseXen_liIiilIIIIiliIll==16 then local SynapseXen_illlIIil=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[582973274],9,512)local SynapseXen_iilliiili=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1563788423],0)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;SynapseXen_IiIiI[SynapseXen_IiiiilIiiIiiIlil(SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],113,256),SynapseXen_lIIlIIIiililll,256)]=SynapseXen_illlIIil%SynapseXen_iilliiili elseif SynapseXen_liIiilIIIIiliIll==69 then local SynapseXen_lIIlIlliIll=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],119,256)local SynapseXen_illlIIil=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[582973274],77,512)local SynapseXen_iilliiili=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1563788423],104,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_iilliiili==0 then SynapseXen_liIIl=SynapseXen_liIIl+1;SynapseXen_iilliiili=SynapseXen_IiiIll[SynapseXen_liIIl][1642312672]end;local SynapseXen_IiIlIlIi=(SynapseXen_iilliiili-1)*50;local SynapseXen_IIlliliI=SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]if SynapseXen_illlIIil==0 then SynapseXen_illlIIil=SynapseXen_liIIiilil-SynapseXen_lIIlIlliIll end;for SynapseXen_IIiIllllIlIi=1,SynapseXen_illlIIil do SynapseXen_IIlliliI[SynapseXen_IiIlIlIi+SynapseXen_IIiIllllIlIi]=SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+SynapseXen_IIiIllllIlIi]end elseif SynapseXen_liIiilIIIIiliIll==192 then local SynapseXen_lIIlIlliIll=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],26)~=0;local SynapseXen_illlIIil=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],120)local SynapseXen_iilliiili=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1563788423],18,512),SynapseXen_lIIlIIIiililll,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;if SynapseXen_illlIIil<=SynapseXen_iilliiili~=SynapseXen_lIIlIlliIll then SynapseXen_liIIl=SynapseXen_liIIl+1 end elseif SynapseXen_liIiilIIIIiliIll==118 then SynapseXen_IIliIiiiIiiill[SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],53,256)]=not SynapseXen_IIliIiiiIiiill[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[582973274],68,512)]elseif SynapseXen_liIiilIIIIiliIll==238 then local SynapseXen_illlIIil=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],57)local SynapseXen_iilliiili=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1563788423],58,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;SynapseXen_IiIiI[SynapseXen_IiiiilIiiIiiIlil(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],116),SynapseXen_lIIlIIIiililll,256)]=SynapseXen_illlIIil+SynapseXen_iilliiili elseif SynapseXen_liIiilIIIIiliIll==52 then SynapseXen_IIliIiiiIiiill[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],4,256)]=SynapseXen_liIlII[SynapseXen_llliiillIilli[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[750730898],201900,262144)]]elseif SynapseXen_liIiilIIIIiliIll==240 then local SynapseXen_illlIIil,SynapseXen_iilliiili=SynapseXen_llIlIIilIiiiliIII(SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[582973274],111,512),SynapseXen_lIIlIIIiililll),SynapseXen_IiiiilIiiIiiIlil(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1563788423],95),SynapseXen_lIIlIIIiililll,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;SynapseXen_IiIiI[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],5)][SynapseXen_illlIIil]=SynapseXen_iilliiili elseif SynapseXen_liIiilIIIIiliIll==174 then local SynapseXen_lIIlIlliIll=SynapseXen_lIlIlillliillllIIi(SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],65,256),SynapseXen_lIIlIIIiililll,256)local SynapseXen_illii={}for SynapseXen_IIiIllllIlIi=1,#SynapseXen_illlilIiIIii do local SynapseXen_iIIIIiI=SynapseXen_illlilIiIIii[SynapseXen_IIiIllllIlIi]for SynapseXen_IlilliIli=0,#SynapseXen_iIIIIiI do local SynapseXen_illllllIIl=SynapseXen_iIIIIiI[SynapseXen_IlilliIli]local SynapseXen_IiIiI=SynapseXen_illllllIIl[1]local SynapseXen_llIiIIiI=SynapseXen_illllllIIl[2]if SynapseXen_IiIiI==SynapseXen_IIliIiiiIiiill and SynapseXen_llIiIIiI>=SynapseXen_lIIlIlliIll then SynapseXen_illii[SynapseXen_llIiIIiI]=SynapseXen_IiIiI[SynapseXen_llIiIIiI]SynapseXen_illllllIIl[1]=SynapseXen_illii end end end elseif SynapseXen_liIiilIIIIiliIll==102 then SynapseXen_lIIlIIIiililll=SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],16)]elseif SynapseXen_liIiilIIIIiliIll==163 then local SynapseXen_lIIlIlliIll=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],35,256)local SynapseXen_illlIIil=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[582973274],22,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;local SynapseXen_lIIIlilIiIIlIliIi,SynapseXen_IliililIIlllIIII;local SynapseXen_iliIIllIIlllllIi;local SynapseXen_lIIiIilIiiliIIiilI=0;SynapseXen_lIIIlilIiIIlIliIi={}if SynapseXen_illlIIil~=1 then if SynapseXen_illlIIil~=0 then SynapseXen_iliIIllIIlllllIi=SynapseXen_lIIlIlliIll+SynapseXen_illlIIil-1 else SynapseXen_iliIIllIIlllllIi=SynapseXen_liIIiilil end;for SynapseXen_IIiIllllIlIi=SynapseXen_lIIlIlliIll+1,SynapseXen_iliIIllIIlllllIi do SynapseXen_lIIIlilIiIIlIliIi[#SynapseXen_lIIIlilIiIIlIliIi+1]=SynapseXen_IiIiI[SynapseXen_IIiIllllIlIi]end;SynapseXen_IliililIIlllIIII={SynapseXen_IiIiI[SynapseXen_lIIlIlliIll](unpack(SynapseXen_lIIIlilIiIIlIliIi,1,SynapseXen_iliIIllIIlllllIi-SynapseXen_lIIlIlliIll))}else SynapseXen_IliililIIlllIIII={SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]()}end;for SynapseXen_iIiIlIiIIlillliilIII in next,SynapseXen_IliililIIlllIIII do if SynapseXen_iIiIlIiIIlillliilIII>SynapseXen_lIIiIilIiiliIIiilI then SynapseXen_lIIiIilIiiliIIiilI=SynapseXen_iIiIlIiIIlillliilIII end end;return SynapseXen_IliililIIlllIIII,SynapseXen_lIIiIilIiiliIIiilI elseif SynapseXen_liIiilIIIIiliIll==140 then local SynapseXen_IIIIIililII=SynapseXen_IlIllIlil[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[750730898],214241)]local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;local SynapseXen_liIilllli;local SynapseXen_lIliIiIillliIiiIIiiI;if SynapseXen_IIIIIililII[1788215202]~=0 then SynapseXen_liIilllli={}SynapseXen_lIliIiIillliIiiIIiiI=setmetatable({},{__index=function(SynapseXen_llIllllIililiiiliIII,SynapseXen_IilIiIl)local SynapseXen_llIiIiIiiiliiIl=SynapseXen_liIilllli[SynapseXen_IilIiIl]return SynapseXen_llIiIiIiiiliiIl[1][SynapseXen_llIiIiIiiiliiIl[2]]end,__newindex=function(SynapseXen_llIllllIililiiiliIII,SynapseXen_IilIiIl,SynapseXen_IlIIiIlilIIlil)local SynapseXen_llIiIiIiiiliiIl=SynapseXen_liIilllli[SynapseXen_IilIiIl]SynapseXen_llIiIiIiiiliiIl[1][SynapseXen_llIiIiIiiiliiIl[2]]=SynapseXen_IlIIiIlilIIlil end})for SynapseXen_IIiIllllIlIi=1,SynapseXen_IIIIIililII[1788215202]do local SynapseXen_iiIIiIlliIlIllIlIi=SynapseXen_IiiIll[SynapseXen_liIIl]if SynapseXen_iiIIiIlliIlIllIlIi[1841327969]==217 then SynapseXen_liIilllli[SynapseXen_IIiIllllIlIi-1]={SynapseXen_IiIiI,SynapseXen_llIlIIilIiiiliIII(SynapseXen_iiIIiIlliIlIllIlIi[582973274],59)}elseif SynapseXen_iiIIiIlliIlIllIlIi[1841327969]==65 then SynapseXen_liIilllli[SynapseXen_IIiIllllIlIi-1]={SynapseXen_IilIlIlliI,SynapseXen_llIlIIilIiiiliIII(SynapseXen_iiIIiIlliIlIllIlIi[582973274],54)}end;SynapseXen_liIIl=SynapseXen_liIIl+1 end;SynapseXen_illlilIiIIii[#SynapseXen_illlilIiIIii+1]=SynapseXen_liIilllli end;SynapseXen_IiIiI[SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],104,256)]=SynapseXen_iiIii(SynapseXen_IIIIIililII,SynapseXen_liIlII,SynapseXen_lIliIiIillliIiiIIiiI)elseif SynapseXen_liIiilIIIIiliIll==21 then local SynapseXen_illlIIil=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[582973274],84,512)local SynapseXen_iilliiili=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1563788423],94)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;SynapseXen_IiIiI[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],5,256)]=SynapseXen_illlIIil^SynapseXen_iilliiili elseif SynapseXen_liIiilIIIIiliIll==182 then SynapseXen_IilIlIlliI[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[582973274],95,512)]=SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],75)]elseif SynapseXen_liIiilIIIIiliIll==237 then if SynapseXen_lIlIlillliillllIIi(SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[750730898],204718,262144),SynapseXen_lIIlIIIiililll,262144)==8784 then SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],45)]=SynapseXen_lIIIIIl else SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],45)]=SynapseXen_IiiIIlll[SynapseXen_lIlIlillliillllIIi(SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[750730898],204718,262144),SynapseXen_lIIlIIIiililll,262144)]end elseif SynapseXen_liIiilIIIIiliIll==4 then local SynapseXen_lIIlIlliIll=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],51)local SynapseXen_illlIIil=SynapseXen_lIlIlillliillllIIi(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],81),SynapseXen_lIIlIIIiililll,512)local SynapseXen_IiIiI,SynapseXen_iiillIIiIiIiill=SynapseXen_IIliIiiiIiiill,SynapseXen_IIiiIiliIlllIiI;SynapseXen_liIIiilil=SynapseXen_lIIlIlliIll-1;for SynapseXen_IIiIllllIlIi=SynapseXen_lIIlIlliIll,SynapseXen_lIIlIlliIll+(SynapseXen_illlIIil>0 and SynapseXen_illlIIil-1 or SynapseXen_IliIIlIilII)do SynapseXen_IiIiI[SynapseXen_IIiIllllIlIi]=SynapseXen_iiillIIiIiIiill[SynapseXen_IIiIllllIlIi-SynapseXen_lIIlIlliIll]end elseif SynapseXen_liIiilIIIIiliIll==191 then local SynapseXen_iilliiili=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1563788423],123,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;SynapseXen_IiIiI[SynapseXen_IiiiilIiiIiiIlil(SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],21,256),SynapseXen_lIIlIIIiililll,256)]=SynapseXen_IiIiI[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[582973274],106,512)][SynapseXen_iilliiili]elseif SynapseXen_liIiilIIIIiliIll==230 then SynapseXen_liIlII[SynapseXen_llliiillIilli[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[750730898],202296,262144)]]=SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],76)]elseif SynapseXen_liIiilIIIIiliIll==65 then SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],31)]=SynapseXen_IilIlIlliI[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],54)]elseif SynapseXen_liIiilIIIIiliIll==119 then local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;for SynapseXen_IIiIllllIlIi=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],11,256),SynapseXen_lIIlIIIiililll,256),SynapseXen_IiiiilIiiIiiIlil(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],121),SynapseXen_lIIlIIIiililll,512)do SynapseXen_IiIiI[SynapseXen_IIiIllllIlIi]=nil end elseif SynapseXen_liIiilIIIIiliIll==56 then local SynapseXen_illlIIil=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],48)local SynapseXen_iilliiili=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1563788423],124),SynapseXen_lIIlIIIiililll,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;SynapseXen_IiIiI[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],51,256)]=SynapseXen_illlIIil*SynapseXen_iilliiili elseif SynapseXen_liIiilIIIIiliIll==83 then SynapseXen_IIliIiiiIiiill[SynapseXen_lIlIlillliillllIIi(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],70),SynapseXen_lIIlIIIiililll,256)]=-SynapseXen_IIliIiiiIiiill[SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[582973274],19,512)]elseif SynapseXen_liIiilIIIIiliIll==7 then local SynapseXen_lIIlIlliIll=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],57)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]=assert(tonumber(SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]),'`for` initial value must be a number')SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+1]=assert(tonumber(SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+1]),'`for` limit must be a number')SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+2]=assert(tonumber(SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+2]),'`for` step must be a number')SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]=SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]-SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+2]SynapseXen_liIIl=SynapseXen_liIIl+SynapseXen_IillIIiiiliiilI[1040761900]elseif SynapseXen_liIiilIIIIiliIll==126 then local SynapseXen_lIIlIlliIll=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],12,256)local SynapseXen_illlIIil=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],4),SynapseXen_lIIlIIIiililll,512)local SynapseXen_iilliiili=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1563788423],85,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;local SynapseXen_lIIIlilIiIIlIliIi,SynapseXen_IliililIIlllIIII;local SynapseXen_iliIIllIIlllllIi,SynapseXen_IIiIiIIIIiIliiii;SynapseXen_lIIIlilIiIIlIliIi={}if SynapseXen_illlIIil~=1 then if SynapseXen_illlIIil~=0 then SynapseXen_iliIIllIIlllllIi=SynapseXen_lIIlIlliIll+SynapseXen_illlIIil-1 else SynapseXen_iliIIllIIlllllIi=SynapseXen_liIIiilil end;SynapseXen_IIiIiIIIIiIliiii=0;for SynapseXen_IIiIllllIlIi=SynapseXen_lIIlIlliIll+1,SynapseXen_iliIIllIIlllllIi do SynapseXen_IIiIiIIIIiIliiii=SynapseXen_IIiIiIIIIiIliiii+1;SynapseXen_lIIIlilIiIIlIliIi[SynapseXen_IIiIiIIIIiIliiii]=SynapseXen_IiIiI[SynapseXen_IIiIllllIlIi]end;SynapseXen_iliIIllIIlllllIi,SynapseXen_IliililIIlllIIII=SynapseXen_IilIllIIIIIllliiI(SynapseXen_IiIiI[SynapseXen_lIIlIlliIll](unpack(SynapseXen_lIIIlilIiIIlIliIi,1,SynapseXen_iliIIllIIlllllIi-SynapseXen_lIIlIlliIll)))else SynapseXen_iliIIllIIlllllIi,SynapseXen_IliililIIlllIIII=SynapseXen_IilIllIIIIIllliiI(SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]())end;SynapseXen_liIIiilil=SynapseXen_lIIlIlliIll-1;if SynapseXen_iilliiili~=1 then if SynapseXen_iilliiili~=0 then SynapseXen_iliIIllIIlllllIi=SynapseXen_lIIlIlliIll+SynapseXen_iilliiili-2 else SynapseXen_iliIIllIIlllllIi=SynapseXen_iliIIllIIlllllIi+SynapseXen_lIIlIlliIll-1 end;SynapseXen_IIiIiIIIIiIliiii=0;for SynapseXen_IIiIllllIlIi=SynapseXen_lIIlIlliIll,SynapseXen_iliIIllIIlllllIi do SynapseXen_IIiIiIIIIiIliiii=SynapseXen_IIiIiIIIIiIliiii+1;SynapseXen_IiIiI[SynapseXen_IIiIllllIlIi]=SynapseXen_IliililIIlllIIII[SynapseXen_IIiIiIIIIiIliiii]end end elseif SynapseXen_liIiilIIIIiliIll==166 then local SynapseXen_lIIlIlliIll=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],95),SynapseXen_lIIlIIIiililll,256)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;local SynapseXen_IIill=SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+2]local SynapseXen_iIiIlIiIIlillliilIII=SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]+SynapseXen_IIill;SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]=SynapseXen_iIiIlIiIIlillliilIII;if SynapseXen_IIill>0 then if SynapseXen_iIiIlIiIIlillliilIII<=SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+1]then SynapseXen_liIIl=SynapseXen_liIIl+SynapseXen_IillIIiiiliiilI[1040761900]SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+3]=SynapseXen_iIiIlIiIIlillliilIII end else if SynapseXen_iIiIlIiIIlillliilIII>=SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+1]then SynapseXen_liIIl=SynapseXen_liIIl+SynapseXen_IillIIiiiliiilI[1040761900]SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+3]=SynapseXen_iIiIlIiIIlillliilIII end end elseif SynapseXen_liIiilIIIIiliIll==37 then SynapseXen_IIliIiiiIiiill[SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],39,256)]=#SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],14)]elseif SynapseXen_liIiilIIIIiliIll==197 then local SynapseXen_lIIlIlliIll=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],74,256)local SynapseXen_iilliiili=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1563788423],57,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;local SynapseXen_IiIlIlIi=SynapseXen_lIIlIlliIll+2;local SynapseXen_lIIlllIlIIIIii={SynapseXen_IiIiI[SynapseXen_lIIlIlliIll](SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+1],SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+2])}for SynapseXen_IIiIllllIlIi=1,SynapseXen_iilliiili do SynapseXen_IIliIiiiIiiill[SynapseXen_IiIlIlIi+SynapseXen_IIiIllllIlIi]=SynapseXen_lIIlllIlIIIIii[SynapseXen_IIiIllllIlIi]end;if SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+3]~=nil then SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+2]=SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+3]else SynapseXen_liIIl=SynapseXen_liIIl+1 end elseif SynapseXen_liIiilIIIIiliIll==252 then local SynapseXen_lIIlIlliIll=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],95,256)~=0;local SynapseXen_illlIIil=SynapseXen_llIlIIilIiiiliIII(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],56),SynapseXen_lIIlIIIiililll)local SynapseXen_iilliiili=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1563788423],21,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;if SynapseXen_illlIIil==SynapseXen_iilliiili~=SynapseXen_lIIlIlliIll then SynapseXen_liIIl=SynapseXen_liIIl+1 end elseif SynapseXen_liIiilIIIIiliIll==23 then SynapseXen_IIliIiiiIiiill[SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],3,256)]=SynapseXen_llliiillIilli[SynapseXen_lIlIlillliillllIIi(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[750730898],7430),SynapseXen_lIIlIIIiililll,262144)]elseif SynapseXen_liIiilIIIIiliIll==10 then local SynapseXen_illlIIil=SynapseXen_IIliIiiiIiiill[SynapseXen_lIlIlillliillllIIi(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],97),SynapseXen_lIIlIIIiililll,512)]if not not SynapseXen_illlIIil==(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1563788423],50,512),SynapseXen_lIIlIIIiililll)==0)then SynapseXen_liIIl=SynapseXen_liIIl+1 else SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],5)]=SynapseXen_illlIIil end elseif SynapseXen_liIiilIIIIiliIll==228 then SynapseXen_IIliIiiiIiiill[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],109,256)]=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],78)~=0;if SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1563788423],108,512)~=0 then SynapseXen_liIIl=SynapseXen_liIIl+1 end elseif SynapseXen_liIiilIIIIiliIll==222 then local SynapseXen_illlIIil=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[582973274],105,512)local SynapseXen_iilliiili=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1563788423],123,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;SynapseXen_IiIiI[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],8,256)]=SynapseXen_illlIIil-SynapseXen_iilliiili elseif SynapseXen_liIiilIIIIiliIll==217 then SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],104)]=SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],59)]elseif SynapseXen_liIiilIIIIiliIll==154 then SynapseXen_liIIl=SynapseXen_liIIl+SynapseXen_IillIIiiiliiilI[1040761900]elseif SynapseXen_liIiilIIIIiliIll==141 then SynapseXen_IIliIiiiIiiill[SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1249423195],84)]={}elseif SynapseXen_liIiilIIIIiliIll==115 then local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;local SynapseXen_illlIIil=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],47),SynapseXen_lIIlIIIiililll,512)local SynapseXen_ilIilIIlIiIil=SynapseXen_IiIiI[SynapseXen_illlIIil]for SynapseXen_IIiIllllIlIi=SynapseXen_illlIIil+1,SynapseXen_IiiiilIiiIiiIlil(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1563788423],31),SynapseXen_lIIlIIIiililll,512)do SynapseXen_ilIilIIlIiIil=SynapseXen_ilIilIIlIiIil..SynapseXen_IiIiI[SynapseXen_IIiIllllIlIi]end;SynapseXen_IIliIiiiIiiill[SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],31,256)]=SynapseXen_ilIilIIlIiIil elseif SynapseXen_liIiilIIIIiliIll==254 then local SynapseXen_lIIlIlliIll=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],66,256)~=0;local SynapseXen_illlIIil=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],56)local SynapseXen_iilliiili=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1563788423],31,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;if SynapseXen_illlIIil>255 then SynapseXen_illlIIil=SynapseXen_llliiillIilli[SynapseXen_illlIIil-256]else SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]end;if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;if SynapseXen_illlIIil<SynapseXen_iilliiili~=SynapseXen_lIIlIlliIll then SynapseXen_liIIl=SynapseXen_liIIl+1 end elseif SynapseXen_liIiilIIIIiliIll==121 then local SynapseXen_lIIlIlliIll=SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],15,256)local SynapseXen_illlIIil=SynapseXen_lIlIlillliillllIIi(SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[582973274],48),SynapseXen_lIIlIIIiililll,512)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;local SynapseXen_IIiIiIIIIiIliiii,SynapseXen_IiiliIlIiIIiII;local SynapseXen_iliIIllIIlllllIi;if SynapseXen_illlIIil==1 then return elseif SynapseXen_illlIIil==0 then SynapseXen_iliIIllIIlllllIi=SynapseXen_liIIiilil else SynapseXen_iliIIllIIlllllIi=SynapseXen_lIIlIlliIll+SynapseXen_illlIIil-2 end;SynapseXen_IiiliIlIiIIiII={}SynapseXen_IIiIiIIIIiIliiii=0;for SynapseXen_IIiIllllIlIi=SynapseXen_lIIlIlliIll,SynapseXen_iliIIllIIlllllIi do SynapseXen_IIiIiIIIIiIliiii=SynapseXen_IIiIiIIIIiIliiii+1;SynapseXen_IiiliIlIiIIiII[SynapseXen_IIiIiIIIIiIliiii]=SynapseXen_IiIiI[SynapseXen_IIiIllllIlIi]end;return SynapseXen_IiiliIlIiIIiII,SynapseXen_IIiIiIIIIiIliiii elseif SynapseXen_liIiilIIIIiliIll==66 then if not not SynapseXen_IIliIiiiIiiill[SynapseXen_IiiiilIiiIiiIlil(SynapseXen_IillIIiiiliiilI[1249423195],53,256)]==(SynapseXen_IiiiilIiiIiiIlil(SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1563788423],93,512),SynapseXen_lIIlIIIiililll,512)==0)then SynapseXen_liIIl=SynapseXen_liIIl+1 end elseif SynapseXen_liIiilIIIIiliIll==57 then local SynapseXen_lIIlIlliIll=SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[1249423195],93,256)local SynapseXen_illlIIil=SynapseXen_lIlIlillliillllIIi(SynapseXen_lIlIlillliillllIIi(SynapseXen_IillIIiiiliiilI[582973274],88,512),SynapseXen_lIIlIIIiililll,512)local SynapseXen_iilliiili=SynapseXen_llIlIIilIiiiliIII(SynapseXen_IillIIiiiliiilI[1563788423],9)local SynapseXen_IiIiI=SynapseXen_IIliIiiiIiiill;SynapseXen_illlIIil=SynapseXen_IiIiI[SynapseXen_illlIIil]if SynapseXen_iilliiili>255 then SynapseXen_iilliiili=SynapseXen_llliiillIilli[SynapseXen_iilliiili-256]else SynapseXen_iilliiili=SynapseXen_IiIiI[SynapseXen_iilliiili]end;SynapseXen_IiIiI[SynapseXen_lIIlIlliIll+1]=SynapseXen_illlIIil;SynapseXen_IiIiI[SynapseXen_lIIlIlliIll]=SynapseXen_illlIIil[SynapseXen_iilliiili]end end end;local SynapseXen_lIIIlilIiIIlIliIi={...}for SynapseXen_IIiIllllIlIi=0,SynapseXen_IliIIlIilII do if SynapseXen_IIiIllllIlIi>=SynapseXen_IlIIIiIIlilliliIiiii[131170503]then SynapseXen_IIiiIiliIlllIiI[SynapseXen_IIiIllllIlIi-SynapseXen_IlIIIiIIlilliliIiiii[131170503]]=SynapseXen_lIIIlilIiIIlIliIi[SynapseXen_IIiIllllIlIi+1]else SynapseXen_IIliIiiiIiiill[SynapseXen_IIiIllllIlIi]=SynapseXen_lIIIlilIiIIlIliIi[SynapseXen_IIiIllllIlIi+1]end end;local SynapseXen_illlIIil,SynapseXen_iilliiili=SynapseXen_iIIII()if SynapseXen_illlIIil and SynapseXen_iilliiili>0 then return unpack(SynapseXen_illlIIil,1,SynapseXen_iilliiili)end;return end end;local function SynapseXen_IlIlliIilIllIIlil(SynapseXen_iliilll,SynapseXen_liIlII)local SynapseXen_IlIliIIIilIIi=SynapseXen_ililiiliilllIIii(SynapseXen_iliilll)return SynapseXen_iiIii(SynapseXen_IlIliIIIilIIi,SynapseXen_liIlII or getfenv(0)),SynapseXen_IlIliIIIilIIi end;return SynapseXen_IlIlliIilIllIIlil(SynapseXen_llIllIiiIiIIIiIiiliI("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"),getfenv())()
+ 
+end)
